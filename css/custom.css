@@ -1,0 +1,343 @@
+.reveal section img {
+    border: 0px;
+    box-shadow: none;
+}
+
+.left-col {
+    width: 50%;
+    float: left;
+}
+
+.right-col {
+    width: 50%;
+    float: right;
+}
+
+.clear-col {
+    float: none;
+    clear: both;
+}
+
+.small-table td {
+    border: 0px;
+    font-size: 24px;
+    margin: 0px;
+}
+
+p.small,
+a.small {
+    font-size: 18px;
+}
+
+p.medium,
+a.medium {
+    font-size: 28px;
+}
+
+.small td,
+.small th {
+    font-size: 32px;
+}
+
+.small code {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.smaller code {
+    font-size: 12px;
+    line-height: 13px;
+}
+
+.smallest code {
+    font-size: 8px;
+    line-height: 10px;
+}
+
+.two-col-code {
+    min-height: 400px;
+}
+
+.smallquote blockquote {
+    font-size: 32px !important;
+}
+
+.smallestquote blockquote {
+    font-size: 28px !important;
+}
+
+/* Custom Coding Style */
+code {
+    color: #22F;
+}
+
+code.medium {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/* Background Slides */
+
+.background h1,
+.background h2
+{
+    color: #00ffda !important;
+}
+
+.background h3,
+.background h4,
+.background h5,
+.background p 
+{
+    color: white !important;
+}
+
+.background blockquote {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.background a {
+    color: #4c98ff;
+}
+
+.large p {
+    font-size: 64px !important;
+    font-weight: bold !important;
+}
+
+/* Padding Styles */
+
+.low-padding p,
+.low-padding img {
+    margin: 0px !important;
+}
+
+/* Images */
+img[alt="portrait"] {
+    width: 350px;
+    border: 2px solid black !important;
+}
+
+img[alt="celery_celery"] {
+    width: 500px;
+}
+
+img[alt="small_portrait"] {
+    width: 220px;
+    border: 2px solid black !important;
+}
+
+img[alt="prize"] {
+    width: 250px;
+}
+
+img[alt="perceptron_learning"] {
+    zoom: 0.5; /* all browsers */
+    -moz-transform: scale(0.5);  /* Firefox */
+}
+
+img[alt="rnn_diagram"] {
+    width: 512px;
+}
+
+img[alt="rnn_compressed"] {
+    width: 800px;
+}
+
+img[alt="perceptron"] {
+    width: 600px;
+}
+
+img[alt="char_perceptron"] {
+    width: 600px;
+    margin: 0px;
+    padding: 0px;
+}
+
+img[alt="char_perceptron_filled"] {
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+img[alt="nn_chars_filled_in"] {
+    width: 400px;
+}
+
+img[alt="weight_matrix"] {
+    width: 600px;
+}
+
+img[alt="gradient_descent"] {
+    width: 400px;
+}
+
+img[alt="rnn_diagram"] {
+    width: 400px;
+}
+
+img[alt="distributed_architecture"]{
+    width: 800px;
+}
+
+img[alt="deep_rnn_diagram"] {
+    width: 600px;
+}
+
+img[alt="rnn_long_term_deps"] {
+    width: 580px;
+}
+
+img[alt="rnn_unrolled"] {
+    width: 460px;
+}
+
+img[alt="rnn_hiddenstate"] {
+    width: 600px;
+}
+
+img[alt="rnn_unrolled_chars"] {
+    max-width: 700px;
+}
+
+img[alt="tensorflow"] {
+    width: 400px;
+}
+
+img[alt="nn_backprop_algebra"] {
+    width: 550px;
+}
+
+img[alt="donald"] {
+    width: 225px;
+}
+
+img {
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+/* Library Icons */
+
+img[alt="icon_tensorflow"] {
+      width: 100px;
+      padding: 0px 32px 0px 32px;
+}
+img[alt="icon_keras"] {
+      width: 100px;
+      padding: 0px 32px 0px 32px;
+}
+img[alt="icon_caffe"] {
+      width: 250px;
+      padding: 0px 32px 0px 32px;
+}
+img[alt="icon_pytorch"] {
+      width: 200px;
+      padding: 0px 32px 0px 32px;
+}
+img[alt="icon_theano"] {
+      width: 200px;
+      padding: 0px 32px 0px 32px;
+}
+
+img[alt="novel_preprocessing"] {
+    width: 550px;
+    padding-left: 128px;
+}
+
+img[alt="mini_batch_chars"] {
+    padding-top: 32px;
+    width: 1000px;
+}
+
+img[alt="full_network"] {
+    width: 800px;
+}
+
+img[alt="full_network_small"] {
+    width: 550px;
+}
+
+img[alt="full_network_smaller"] {
+    width: 400px;
+}
+
+img[alt="full_network_loss"] {
+    width: 700px;
+}
+
+img[alt="tensorflow_graph"] {
+    width: 800px;
+}
+
+img[alt="tensorflow_graph_marked"] {
+    width: 800px;
+}
+
+img[alt="classification"] {
+    width: 550px;
+}
+
+img[alt="classification_small"] {
+    width: 450px;
+}
+
+.bio-table td {
+    text-align: center !important;
+    border: 0px !important;
+    max-width: 400px;
+}
+
+.github {
+    font-size: 20px !important;
+}
+
+ul li {
+    color: white
+}
+.small-list li {
+    font-size: 0.7em;
+    margin-top: 0.6em;
+}
+.flashing .slide iframe:nth-of-type(1) {
+    animation: fadeInFromNone 5s infinite;
+}
+.flashing .slide .slide-background {
+    animation: fadeInFromLess 5s infinite;
+    background-color: black;
+}
+body {
+    background-color: black
+}
+@keyframes fadeInFromLess {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
+@keyframes fadeInFromNone {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 0.1;
+    }
+}
+div {
+    color: white;
+}
+.break-line {
+    clear: both;
+    width:100%;
+}

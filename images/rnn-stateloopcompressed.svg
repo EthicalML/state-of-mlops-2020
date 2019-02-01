@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="410px" height="106px" viewBox="0 0 410 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="121" y="16" width="16" height="11"></rect>
+        <rect id="path-2" x="227" y="16" width="16" height="11"></rect>
+        <rect id="path-3" x="334" y="16" width="16" height="11"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(1.000000, 1.000000)">
+            <text id="O_0" font-family="Helvetica-BoldOblique, Helvetica" font-size="12" font-style="italic" font-weight="bold" fill="#000000">
+                <tspan x="112" y="57">O</tspan>
+                <tspan x="121.333984" y="57" font-family="Helvetica-Bold, Helvetica">_0</tspan>
+            </text>
+            <text id="O_1" font-family="Helvetica-BoldOblique, Helvetica" font-size="12" font-style="italic" font-weight="bold" fill="#000000">
+                <tspan x="219" y="57">O_</tspan>
+                <tspan x="235.007812" y="57" font-family="Helvetica-Bold, Helvetica">1</tspan>
+            </text>
+            <text id="O_2" font-family="Helvetica-BoldOblique, Helvetica" font-size="12" font-style="italic" font-weight="bold" fill="#000000">
+                <tspan x="325" y="57">O</tspan>
+                <tspan x="334.333984" y="57" font-family="Helvetica-Bold, Helvetica">_2</tspan>
+            </text>
+            <polygon id="path22" stroke="#000000" stroke-width="0.9962625" fill="#FFF880" fill-rule="nonzero" transform="translate(17.716744, 17.716744) scale(-1, 1) rotate(-180.000000) translate(-17.716744, -17.716744) " points="0 0 35.4334875 0 35.4334875 35.4334875 0 35.4334875"></polygon>
+            <path d="M142.4335,17.7167375 C142.4335,27.5015375 134.501563,35.433475 124.71675,35.433475 C114.931938,35.433475 107,27.5015375 107,17.7167375 C107,7.9319375 114.931938,0 124.71675,0 C134.501563,0 142.4335,7.9319375 142.4335,17.7167375 Z" id="path32" stroke="#000000" stroke-width="0.9962625" fill="#8080FF" fill-rule="nonzero" transform="translate(124.716750, 17.716737) scale(-1, 1) rotate(-180.000000) translate(-124.716750, -17.716737) "></path>
+            <path d="M248.433475,17.7167375 C248.433475,27.5015375 240.50155,35.433475 230.71675,35.433475 C220.931925,35.433475 213,27.5015375 213,17.7167375 C213,7.9319375 220.931925,0 230.71675,0 C240.50155,0 248.433475,7.9319375 248.433475,17.7167375 L248.433475,17.7167375 Z" id="path44" stroke="#000000" stroke-width="0.9962625" fill="#8080FF" fill-rule="nonzero" transform="translate(230.716738, 17.716737) scale(-1, 1) rotate(-180.000000) translate(-230.716738, -17.716737) "></path>
+            <path d="M354.433488,17.7167375 C354.433488,27.5015375 346.50155,35.433475 336.716738,35.433475 C326.931925,35.433475 319,27.5015375 319,17.7167375 C319,7.9319375 326.931925,0 336.716738,0 C346.50155,0 354.433488,7.9319375 354.433488,17.7167375 Z" id="path56" stroke="#000000" stroke-width="0.9962625" fill="#8080FF" fill-rule="nonzero" transform="translate(336.716744, 17.716737) scale(-1, 1) rotate(-180.000000) translate(-336.716744, -17.716737) "></path>
+            <path d="M146.150337,44.575125 L147.9221,44.575125 C152.814512,44.575125 156.780475,40.609175 156.780475,35.7167625 L156.780475,26.858375 C156.780475,21.9659625 152.814512,18 147.9221,18 L101.858375,18 C96.9659625,18 93,21.9659625 93,26.858375 L93,28.6301875 C93,33.522575 96.9659625,37.4885375 101.858375,37.4885375 L102.123287,37.4885375" id="path66" stroke="#000000" stroke-width="1.99255005" transform="translate(124.890237, 31.287562) scale(-1, 1) rotate(-180.000000) translate(-124.890237, -31.287562) "></path>
+            <path d="M99,28.57165 C99.2366,27.15195 101.83935,25.0224125 102.549175,24.785825 C101.83935,24.5492375 99.2366,22.4197 99,21" id="path72" stroke="#000000" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(100.774587, 24.785825) scale(-1, 1) rotate(-180.000000) translate(-100.774587, -24.785825) "></path>
+            <path d="M252.150312,44.575125 L253.922112,44.575125 C258.8145,44.575125 262.780462,40.609175 262.780462,35.7167625 L262.780462,26.858375 C262.780462,21.9659625 258.8145,18 253.922112,18 L207.858362,18 C202.965975,18 199,21.9659625 199,26.858375 L199,28.6301875 C199,33.522575 202.965975,37.4885375 207.858362,37.4885375 L208.123275,37.4885375" id="path76" stroke="#000000" stroke-width="1.99255005" transform="translate(230.890231, 31.287562) scale(-1, 1) rotate(-180.000000) translate(-230.890231, -31.287562) "></path>
+            <path d="M205,28.57165 C205.2366,27.15195 207.83935,25.0224125 208.549175,24.785825 C207.83935,24.5492375 205.2366,22.4197 205,21" id="path82" stroke="#000000" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(206.774587, 24.785825) scale(-1, 1) rotate(-180.000000) translate(-206.774587, -24.785825) "></path>
+            <path d="M358.150312,44.575125 L359.9221,44.575125 C364.8145,44.575125 368.780462,40.609175 368.780462,35.7167625 L368.780462,26.858375 C368.780462,21.9659625 364.8145,18 359.9221,18 L313.858362,18 C308.96595,18 305,21.9659625 305,26.858375 L305,28.6301875 C305,33.522575 308.96595,37.4885375 313.858362,37.4885375 L314.123263,37.4885375" id="path86" stroke="#000000" stroke-width="1.99255005" transform="translate(336.890231, 31.287562) scale(-1, 1) rotate(-180.000000) translate(-336.890231, -31.287562) "></path>
+            <path d="M312,28.57165 C312.2366,27.15195 314.83935,25.0224125 315.549175,24.785825 C314.83935,24.5492375 312.2366,22.4197 312,21" id="path92" stroke="#000000" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(313.774587, 24.785825) scale(-1, 1) rotate(-180.000000) translate(-313.774587, -24.785825) "></path>
+            <path d="M39,17 L101.2735,17" id="path96" stroke="#000000" stroke-width="1.99255005" transform="translate(70.136750, 17.625000) scale(-1, 1) rotate(-180.000000) translate(-70.136750, -17.625000) "></path>
+            <path d="M99,21.57165 C99.2366,20.15195 101.83935,18.0224125 102.549175,17.785825 C101.83935,17.5492375 99.2366,15.4197 99,14" id="path102" stroke="#000000" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(100.774587, 17.785825) scale(-1, 1) rotate(-180.000000) translate(-100.774587, -17.785825) "></path>
+            <path d="M146,17 L208.273475,17" id="path106" stroke="#000000" stroke-width="1.99255005" transform="translate(177.136737, 17.625000) scale(-1, 1) rotate(-180.000000) translate(-177.136737, -17.625000) "></path>
+            <path d="M205,21.57165 C205.2366,20.15195 207.83935,18.0224125 208.549175,17.785825 C207.83935,17.5492375 205.2366,15.4197 205,14" id="path112" stroke="#000000" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(206.774587, 17.785825) scale(-1, 1) rotate(-180.000000) translate(-206.774587, -17.785825) "></path>
+            <path d="M252,17 L314.2735,17" id="path116" stroke="#000000" stroke-width="1.99255005" transform="translate(283.136750, 17.625000) scale(-1, 1) rotate(-180.000000) translate(-283.136750, -17.625000) "></path>
+            <path d="M312,21.57165 C312.2366,20.15195 314.83935,18.0224125 315.549175,17.785825 C314.83935,17.5492375 312.2366,15.4197 312,14" id="path122" stroke="#000000" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(313.774587, 17.785825) scale(-1, 1) rotate(-180.000000) translate(-313.774587, -17.785825) "></path>
+            <path d="M358,17 L406.100063,17" id="path126" stroke="#000000" stroke-width="1.99255005" transform="translate(382.050031, 17.625000) scale(-1, 1) rotate(-180.000000) translate(-382.050031, -17.625000) "></path>
+            <path d="M404,21.57165 C404.2366,20.15195 406.83935,18.0224125 407.549175,17.785825 C406.83935,17.5492375 404.2366,15.4197 404,14" id="path132" stroke="#000000" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(405.774587, 17.785825) scale(-1, 1) rotate(-180.000000) translate(-405.774587, -17.785825) "></path>
+            <text id="H_0-(cell-state)" font-family="Helvetica-BoldOblique, Helvetica" font-size="12" font-style="italic" font-weight="bold" fill="#0000FF">
+                <tspan x="110.993164" y="84">H_0</tspan>
+                <tspan x="107.161133" y="98" font-family="Helvetica-Bold, Helvetica" font-size="6">(cell state)</tspan>
+            </text>
+            <text id="H_2-(cell-state)" font-family="Helvetica-BoldOblique, Helvetica" font-size="12" font-style="italic" font-weight="bold" fill="#0000FF">
+                <tspan x="322.993164" y="84">H_2</tspan>
+                <tspan x="319.161133" y="98" font-family="Helvetica-Bold, Helvetica" font-size="6">(cell state)</tspan>
+            </text>
+            <text id="H_1-(cell-state)" font-family="Helvetica-BoldOblique, Helvetica" font-size="12" font-style="italic" font-weight="bold" fill="#0000FF">
+                <tspan x="216.993164" y="84">H_1</tspan>
+                <tspan x="213.161133" y="98" font-family="Helvetica-Bold, Helvetica" font-size="6">(cell state)</tspan>
+            </text>
+            <path d="M98,27.57165 C98.2366,26.15195 100.83935,24.0224125 101.549175,23.785825 C100.83935,23.5492375 98.2366,21.4197 98,20" id="path102" stroke="#0000FF" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(99.774587, 23.785825) scale(-1, 1) rotate(-180.000000) translate(-99.774587, -23.785825) "></path>
+            <g id="Rectangle">
+                <use fill="#7ED321" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#000000" stroke-width="1" x="121.5" y="16.5" width="15" height="10"></rect>
+            </g>
+            <path d="M136.332031,20.8164063 C146.808062,15.2710119 168.066137,15.2132925 164.347656,33.9335938 C162.047353,45.5142266 147.253896,59.1722398 136.613281,63.1025391 C122.836817,68.1911198 112.748216,67.901919 97.6152344,63.2519531 C71.3419794,55.1788751 76.7462777,30.8838723 100.082031,23.6005859" id="Path-2" stroke="#0000FF" stroke-width="2"></path>
+            <path d="M204,27.57165 C204.2366,26.15195 206.83935,24.0224125 207.549175,23.785825 C206.83935,23.5492375 204.2366,21.4197 204,20" id="path102" stroke="#0000FF" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(205.774587, 23.785825) scale(-1, 1) rotate(-180.000000) translate(-205.774587, -23.785825) "></path>
+            <g id="Rectangle">
+                <use fill="#7ED321" fill-rule="evenodd" xlink:href="#path-2"></use>
+                <rect stroke="#000000" stroke-width="1" x="227.5" y="16.5" width="15" height="10"></rect>
+            </g>
+            <path d="M242.332031,20.8164063 C252.808062,15.2710119 274.066137,15.2132925 270.347656,33.9335938 C268.047353,45.5142266 253.253896,59.1722398 242.613281,63.1025391 C228.836817,68.1911198 218.748216,67.901919 203.615234,63.2519531 C177.341979,55.1788751 182.746278,30.8838723 206.082031,23.6005859" id="Path-2" stroke="#0000FF" stroke-width="2"></path>
+            <path d="M311,27.57165 C311.2366,26.15195 313.83935,24.0224125 314.549175,23.785825 C313.83935,23.5492375 311.2366,21.4197 311,20" id="path102" stroke="#0000FF" stroke-width="1.59402505" stroke-linecap="round" stroke-linejoin="round" transform="translate(312.774587, 23.785825) scale(-1, 1) rotate(-180.000000) translate(-312.774587, -23.785825) "></path>
+            <g id="Rectangle">
+                <use fill="#7ED321" fill-rule="evenodd" xlink:href="#path-3"></use>
+                <rect stroke="#000000" stroke-width="1" x="334.5" y="16.5" width="15" height="10"></rect>
+            </g>
+            <path d="M349.332031,20.8164063 C359.808062,15.2710119 381.066137,15.2132925 377.347656,33.9335938 C375.047353,45.5142266 360.253896,59.1722398 349.613281,63.1025391 C335.836817,68.1911198 325.748216,67.901919 310.615234,63.2519531 C284.341979,55.1788751 289.746278,30.8838723 313.082031,23.6005859" id="Path-2" stroke="#0000FF" stroke-width="2"></path>
+            <rect id="Rectangle-2" fill="#FFFFFF" x="218" y="99" width="19" height="6"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,147 @@
+<?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" version="1.1" width="408.97501" height="36.428749" id="svg2" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs xmlns="http://www.w3.org/1999/xhtml"><style type="text/css"><![CDATA[]]></style></defs><script>/*global Web3*/
+cleanContextForImports()
+require('web3/dist/web3.min.js')
+const LocalMessageDuplexStream = require('post-message-stream')
+// const PingStream = require('ping-pong-stream/ping')
+// const endOfStream = require('end-of-stream')
+const setupDappAutoReload = require('./lib/auto-reload.js')
+const MetamaskInpageProvider = require('./lib/inpage-provider.js')
+restoreContextAfterImports()
+
+
+//
+// setup plugin communication
+//
+
+// setup background connection
+var metamaskStream = new LocalMessageDuplexStream({
+  name: 'inpage',
+  target: 'contentscript',
+})
+
+// compose the inpage provider
+var inpageProvider = new MetamaskInpageProvider(metamaskStream)
+
+//
+// setup web3
+//
+
+var web3 = new Web3(inpageProvider)
+web3.setProvider = function () {
+  console.log('MetaMask - overrode web3.setProvider')
+}
+console.log('MetaMask - injected web3')
+// export global web3, with usage-detection
+setupDappAutoReload(web3, inpageProvider.publicConfigStore)
+
+// set web3 defaultAccount
+
+inpageProvider.publicConfigStore.subscribe(function (state) {
+  web3.eth.defaultAccount = state.selectedAddress
+})
+
+//
+// util
+//
+
+// need to make sure we aren't affected by overlapping namespaces
+// and that we dont affect the app with our namespace
+// mostly a fix for web3's BigNumber if AMD's "define" is defined...
+var __define
+
+function cleanContextForImports () {
+  __define = global.define
+  try {
+    global.define = undefined
+  } catch (_) {
+    console.warn('MetaMask - global.define could not be deleted.')
+  }
+}
+
+function restoreContextAfterImports () {
+  try {
+    global.define = __define
+  } catch (_) {
+    console.warn('MetaMask - global.define could not be overwritten.')
+  }
+}
+
+</script>
+  <metadata id="metadata8"/>
+  <defs id="defs6"/>
+  <g transform="matrix(1.25,0,0,-1.25,0,36.42875)" id="g10">
+    <g transform="translate(14.572,14.572)" id="g12">
+      <g id="g14">
+        <g id="g16">
+          <g id="g18">
+            <g id="g20">
+              <path d="m -14.17339,-14.17339 28.34679,0 0,28.34679 -28.34679,0 0,-28.34679 z" inkscape:connector-curvature="0" id="path22" style="fill:#fff880;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            </g>
+            <g id="g24">
+              <g id="g26"/>
+            </g>
+          </g>
+          <g id="g28">
+            <g id="g30">
+              <path d="m 99.21382,0 c 0,7.82784 -6.34555,14.17339 -14.1734,14.17339 -7.82785,0 -14.1734,-6.34555 -14.1734,-14.17339 0,-7.82784 6.34555,-14.17339 14.1734,-14.17339 7.82785,0 14.1734,6.34555 14.1734,14.17339 z" inkscape:connector-curvature="0" id="path32" style="fill:#8080ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            </g>
+            <g transform="translate(85.039,0)" id="g34">
+              <g id="g36"/>
+              <g transform="translate(-85.039,0)" id="g38"/>
+            </g>
+          </g>
+          <g id="g40">
+            <g id="g42">
+              <path d="m 184.25424,0 c 0,7.82784 -6.34554,14.17339 -14.17338,14.17339 -7.82786,0 -14.1734,-6.34555 -14.1734,-14.17339 0,-7.82784 6.34554,-14.17339 14.1734,-14.17339 7.82784,0 14.17338,6.34555 14.17338,14.17339 z" inkscape:connector-curvature="0" id="path44" style="fill:#8080ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            </g>
+            <g transform="translate(170.078,0)" id="g46">
+              <g id="g48"/>
+              <g transform="translate(-170.078,0)" id="g50"/>
+            </g>
+          </g>
+          <g id="g52">
+            <g id="g54">
+              <path d="m 269.29468,0 c 0,7.82784 -6.34555,14.17339 -14.1734,14.17339 -7.82785,0 -14.17339,-6.34555 -14.17339,-14.17339 0,-7.82784 6.34554,-14.17339 14.17339,-14.17339 7.82785,0 14.1734,6.34555 14.1734,14.17339 z" inkscape:connector-curvature="0" id="path56" style="fill:#8080ff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.79701;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            </g>
+            <g transform="translate(255.118,0)" id="g58">
+              <g id="g60"/>
+              <g transform="translate(-255.118,0)" id="g62"/>
+            </g>
+          </g>
+          <g id="g64">
+            <path d="m 17.00806,0 49.8188,0" inkscape:connector-curvature="0" id="path66" style="fill:none;stroke:#000000;stroke-width:1.59404004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            <g transform="translate(66.82686,0)" id="g68">
+              <g id="g70">
+                <path d="M -2.27148,3.02866 C -2.0822,1.8929 0,0.18927 0.56786,0 0,-0.18927 -2.0822,-1.8929 -2.27148,-3.02866" inkscape:connector-curvature="0" id="path72" style="fill:none;stroke:#000000;stroke-width:1.27522004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+              </g>
+            </g>
+          </g>
+          <g id="g74">
+            <path d="m 102.0485,0 49.81878,0" inkscape:connector-curvature="0" id="path76" style="fill:none;stroke:#000000;stroke-width:1.59404004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            <g transform="translate(151.86728,0)" id="g78">
+              <g id="g80">
+                <path d="M -2.27148,3.02866 C -2.0822,1.8929 0,0.18927 0.56786,0 0,-0.18927 -2.0822,-1.8929 -2.27148,-3.02866" inkscape:connector-curvature="0" id="path82" style="fill:none;stroke:#000000;stroke-width:1.27522004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+              </g>
+            </g>
+          </g>
+          <g id="g84">
+            <path d="m 187.08891,0 49.8188,0" inkscape:connector-curvature="0" id="path86" style="fill:none;stroke:#000000;stroke-width:1.59404004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            <g transform="translate(236.90771,0)" id="g88">
+              <g id="g90">
+                <path d="M -2.27148,3.02866 C -2.0822,1.8929 0,0.18927 0.56786,0 0,-0.18927 -2.0822,-1.8929 -2.27148,-3.02866" inkscape:connector-curvature="0" id="path92" style="fill:none;stroke:#000000;stroke-width:1.27522004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+              </g>
+            </g>
+          </g>
+          <g id="g94">
+            <path d="M 272.12935,0 310.6094,0" inkscape:connector-curvature="0" id="path96" style="fill:none;stroke:#000000;stroke-width:1.59404004;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+            <g transform="translate(310.6094,0)" id="g98">
+              <g id="g100">
+                <path d="M -2.27148,3.02866 C -2.0822,1.8929 0,0.18927 0.56786,0 0,-0.18927 -2.0822,-1.8929 -2.27148,-3.02866" inkscape:connector-curvature="0" id="path102" style="fill:none;stroke:#000000;stroke-width:1.27522004;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

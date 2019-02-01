@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <script src="jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" href="codemirror.css">
+        <script src="codemirror.js"></script>
+        <script>
+            function generate() {
+                editor.save();
+                // encodeURI will not encode the + char and some other chars,
+                // so we do it manually before encoding the code.
+                const code = $("#code").val()
+                    .replace('#', '%23')
+                    .replace('+', '%2B')
+                    .replace('*', '%4A');
+                console.log(editor);
+                console.log(code);
+                const time_str = "" + new Date().getTime();
+                const uri = encodeURI(
+                    "/render?code=" + code +
+                    "&time=" + time_str);
+                console.log(uri);
+                $("#preview").attr("src", uri);
+            }
+        </script>
+        <style>
+            .table td {
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <table class="table">
+            <tr>
+                <td>
+                    <textarea id="code"></textarea>
+                </td>
+                <td>
+                    <img id="preview" src="" />
+                </td>
+            </tr>
+            <tr>
+                <td><button onclick="generate()">Generate</button></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <script>
+          const editor = CodeMirror.fromTextArea(
+            document.getElementById("code"),
+            {
+                lineNumbers: true,
+                mode:  "python"
+            }
+          );
+          editor.setSize(600, 550);
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "Industrial Machine Learning",
+  "version": "3.2.0",
+  "main": [
+    "js/reveal.js",
+    "css/reveal.css"
+  ],
+  "homepage": "http://github.com/axsauze/industrial-machine-learning",
+  "license": "MIT",
+  "description": "Industrial Machine Learning - distributed, horizontally scalable machine learning pipelines",
+  "authors": [
+    "Alejandro Saucedo."
+  ],
+  "dependencies": {
+    "headjs": "~1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hakimel/reveal.js.git"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ]
+}
