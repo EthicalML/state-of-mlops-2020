@@ -276,21 +276,10 @@ def fit_and_predict(data):
 ![classification_large](images/modeldb-dashboard.png)
 
 
-
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## Pachyderm 
-
-![classification_large](images/pachyderm.png)
-
-Pachyderm is an end-to-end model-versioning framework that allows for reproducible pipeline definitions.
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Reproducible pipeline
-
 ![classification_large](images/pachyderm-dashboard.png)
 
 
@@ -362,45 +351,19 @@ We need to be able to allocate the right resources
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-## Seldon-core
-
-![classification_large](images/seldon1.png)
-
-"Machine Learning Deployment for Enterprise"
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
 ![classification_large](images/seldon3.png)
-## Strong focus on model orchestration
+## Seldon
 ![classification_large](images/seldon2.png)
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-## MLeap
+## MLeap Serving
 
 Diving one level deeper into serialization of models
 
 ![classification_large](images/mleapruntime.jpg)
 
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## MLeap Serving
-Run the server
-```
-$ docker run \ 
-    -p 65327:65327 \
-    -v /tmp/models:/models \
-    combustml/mleap-serving:0.9.0
-```
-Load a model
-```
-curl -XPUT -H "content-type: application/json" \
-  -d '{"path":"/models/<my model>.zip"}' \
-  http://localhost:65327/model
-```
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -409,12 +372,6 @@ curl -XPUT -H "content-type: application/json" \
 Unifying multiple external machine learning libraries on a single API
 
 ![classification_large](images/deepdetect.png)
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Deepdetect dashboard
-![classification_large](images/deepdetect-dashboard.png)
 
 
 [NEXT]
