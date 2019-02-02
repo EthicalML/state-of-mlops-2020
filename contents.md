@@ -8,77 +8,9 @@
   <br />
     Alejandro Saucedo | <a href="">a@ethical.institute</a><br/><br/>
     Twitter: <a href="http://twitter.com/AxSaucedo">@AxSaucedo</a><br/>
-    Github: <a href="http://github.com/axsauze">AxSauze</a><br/>
+    Slides: <a href="http://bit.ly/mlops19">bit.ly/mlops19</a><br/>
   <br />
 </p>
-
-
-[NEXT]
-<!-- .slide: data-background="images/network-background.jpg" class="background" -->
-
-<h2>The Institute for Ethical AI & ML</h2>
-<h3>The state of MLOps in 2019</h3>
-
-<table class="bio-table" style="margin-top: -30px">
-  <tr>
-    <td style="float: left">
-        <br>
-        ![portrait](images/alejandro.jpg)
-        <br>
-        <font style="font-weight: bold; color: white">Alejandro Saucedo</font>
-        <br>
-        Twitter: <a href="">@AxSaucedo</a><br/><br/>
-        <br>
-    </td>
-    <td style="float: left; color: white; font-size: 0.7em;">
-
-        <br>
-        Chief Scientist
-        <br>
-        <a style="color: cyan" href="http://e-x.io">The Institute for Ethical AI & ML</a
-        <br>
-        <br>
-        <br>
-        <hr>
-        <br>
-        Head of Solutions Eng. & Sci.
-        <br>
-        <a style="color: cyan" href="http://eigentech.com">Eigen Technologies</a>
-        <br>
-        <br>
-        Chief Technology Officer
-        <br>
-        <a style="color: cyan" href="#">Hack Partners</a>
-        <br>
-        <br>
-        Software Engineer
-        <br>
-        <a style="color: cyan" href="#">Bloomberg LP.</a>
-
-    </td>
-  </tr>
-  <tr>
-  </tr>
-</table>
-
-
-[NEXT]
-<!-- .slide: data-background="images/network-background.jpg" class="background" -->
-### Scalable Machine Learning
-https://bit.ly/mlops19
-
-### Awesome MLOps List
-http://bit.ly/awesome-mlops
-
-
-[NEXT]
-<!-- .slide: data-background="images/particles.gif" class="background smallquote" -->
-## #LetsDoThis
-
-[NEXT SECTION]
-<!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
-# 1. Motivations
-
 
 [NEXT]
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
@@ -99,10 +31,6 @@ If we have a small data science project...
 * Each has own methods for tracking progress
 * The impact of errors is relatively lower
 
-[NEXT]
-<!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
-
-
 <br>
 ### It all works relatively well!
 
@@ -117,16 +45,7 @@ As our data science requirements grow...
 [NEXT]
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
 #### Increasing complexity in flow of data
-<div class="left-col">
-    <ul>
-        <li>Large number of data processing workflows</li>
-        <li>Data is modified without stardardised trace</li>
-        <li>Managing complexity of flows and scheduling becomes unmanagable</li>
-    </ul>
-</div>
-<div class="right-col">
 ![classification_large](images/crontab.jpg)
-</div>
 
 [NEXT]
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
@@ -151,85 +70,80 @@ As our data science requirements grow...
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
 
 #### Serving models becomes increasinly harder
-
-<div class="left-col">
 ![classification_large](images/mlmodles.png)
-</div>
-<div class="right-col">
-    <ul>
-        <li>Different model versions running in different environments</li>
-        <li>Deploying and reverting models gets increasingly complex</li>
-    </ul>
-</div>
 
 [NEXT]
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
 #### When stuff goes wrong it's hard to trace back
-
-<div class="left-col">
 ![classification_large](images/gitblame.jpg)
-</div>
-
-<div class="right-col">
-    <ul>
-        <li>Data scientists say it's a bug in the pipelines</li>
-        <li>Data engineers say it's something wrong in the models</li>
-        <li>Black box models are develeloped without explainability in mind</li>
-    </ul>
-</div>
 
 [NEXT]
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
 ## It's challenging
-![classification_large](images/mleng-roles.png)
+![full_height](images/mleng-roles.png)
 
 
 [NEXT SECTION]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-# 2. Eco
+# 2. Principles
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+<h1 style="color: white !important">Awesome <font style="color:#00ffda">ML</font>Ops</h1>
+<h4>a curated list of open source frameworks based on the <a href="https://ethical.institute/principles.html" style="color: #00ffda">8 principles</a> for responsible ml.</h4>
+![classification_large](images/mlops-now.png)
+  <a style="color:#00ffda" href="https://bit.ly/awesome-mlops">bit.ly/awesome-mlops</a>
+  <br />
+  <br />
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ### As your technical functions grow...
 
 ![classification_large](images/mltemp1.png)
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ### So should your infrastructure
 
 ![classification_large](images/mlops1.png)
 
-[NEXT]
-
-### The 2 principles of ML-Ops
-* Reproducibility
-* Orchestration
-
-![classification_large](images/mlops2.png)
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-Let's break down the two general principles
+## Principles today
+<br>
+
+<div class="left-col" style="width: 40%; padding-top: 25px">
+<ul>
+    <li>Reproducibility</li>
+    <li>Orchestration</li>
+    <li>Explainability</li>
+</ul>
+</div>
+
+<div class="right-col" style="width: 60%">
+<img src="images/mlops2.png" alt="">
+</div>
+
 
 [NEXT]
-
-# Principle I
-## Model & Data Versioning
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+## Reproducibility
+Model & data provenance
 
 ![classification_large](images/mltemp6.png)
 
-The age-old question of reproducibility in data science
+
 
 [NEXT]
-
-### Dissecting each step in our pipelines
-
-![classification_large](images/mltemp2.png)
-
-Each stage has code/config, as well as specific data in/out 
-
-[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## Abstracting individual steps
 
@@ -278,6 +192,7 @@ $ cat data-output.csv
 
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 <div style="position: absolute; width: 30%; right: 0; bottom: -5%">
 ![classification_large](images/versioning.jpg)
@@ -294,311 +209,15 @@ Together with all the parameters that were used to compute it
 
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-This gets us closer to our ultimate objective:
-
-# Reproducibility
-
-[NEXT]
-
-## Reproducibility enables for
-* Traceablility when debugging for errors
-* Transparency on the steps that lead to results
-* Modularity of components so they can be reused
-* Abstraction to support multiple libraries 
-* Robustness if we need to go back to a previous release
+## Ones to watch
 
 [NEXT]
-
-Once we have our internal representations for our models...
-
-### We are able to serve them in production
-
-[NEXT]
-
-# Principle II 
-### Model Deployment Orchestration
-
-![classification_large](images/mltemp3.png)
-
-Covers complexities of serving models in production
-
-[NEXT]
-
-#### Similar to CI / CD / Monitoring for software...
-
-# But completely different
-
-_note_
-And it's different because we are not dealing with 
-"just software"...
-
-[NEXT]
-
-### A. Karpathy on Software 2.0 (AKA ML)
-
-1) We specify some goal on the behavior of a desirable program (instead of coding it)
-```
-(e.g., “satisfy a dataset of input-output pairs of examples,” 
-or, “win a game of Go”)
-```
-2) write a rough skeleton of the code
-```
-(e.g., a neural net architecture) that identifies a 
-subset of program space to search, 
-```
-3) use the computational resources at our disposal to search this space for a program that works.
-
-[NEXT]
-
-Let's see how this differs
-
-[NEXT]
-
-# Monitoring 
-
-### Going beyond debug logs
-
-[NEXT]
-
-# Monitoring 
-
-<div class="left-col">
-<h3>Short term</h3>
-
-<ul>
-    <li>Anomalies </li>
-    <li>Bias</li>
-    <li>Comp. vs prev model</li>
-</ul>
-</div>
-
-<div class="right-col">
-<h3>Long term</h3>
-<ul>
-    <li>Errors</li>
-    <li>Outages</li>
-    <li>Performance</li>
-</ul>
-</div>
-
-<br style="clear:both">
-<br style="clear:both">
-### Ensuring short and medium term approaches
-
-[NEXT]
-
-#### Quality control processes in production are 
-## necessary 
-#### and need to be specific to its usecase
-
-[NEXT]
-
-# Compliance 
-
-<ul>
-    <li>What happened</li>
-    <li>When it happened</li>
-    <li>Why it happened</li>
-    <li>How it happened</li>
-</ul>
-
-<br>
-### A boring word with exciting benefints
-
-[NEXT]
-
-#### We Can stop praying to the demo gods
-
-<div style="width: 40%; float: left">
-![classification_large](images/programming-gods.jpg)
-</div>
-
-<div style="width: 60%; float: left">
-<a href="https://www.youtube.com/watch?v=eOzl-LFqYFM" style="font-size: 0.6em">Guidelines for and properties of compliant ML</a>
-![classification_large](images/compliant-ml.png)
-<a href="https://www.youtube.com/watch?v=eOzl-LFqYFM" style="font-size: 0.6em">CNCF 2018 - Pachyderm</a>
-</div>
-<br style="clear: both">
-
-
-[NEXT]
-
-This enables the data scientists, data engineers, and devops/mlops engineers to:
-* Trace back issues
-* Debug problems
-* Report critical issues
-</div>
-
-
-[NEXT]
-
-## Computational Resource allocation
-
-Services with different computational requirements
-
-With often complex computational graphs
-
-We need to be able to allocate the right resources
-
-
-[NEXT]
-
-## This is a hard problem
-
-It's basically an operating system kernel
-
-where physical resources have to be abstracted
-
-and the "software" can be:
-* An ETL framework
-* A HDFS-based service 
-* A Kubernetes cluster
-* Any distibuted framework!
-
-
-
-[NEXT]
-
-#### Resource allocation Makes a difference
-
-![classification_large](images/arch3.png)
-
-Compare traditional server allocation
-
-[source: <a href="https://algorithmia.com/">Algorithmia</a>]
-
-[NEXT]
-
-#### Resource allocation Makes a difference
-
-![classification_large](images/arch2.png)
-
-To auto-scale 
-
-[source: <a href="https://algorithmia.com/">Algorithmia</a>]
-
-[NEXT]
-
-#### Resource allocation Makes a difference
-
-![classification_large](images/arch1.png)
-
-Even to serverless
-
-[source: <a href="https://algorithmia.com/">Algorithmia</a>]
-
-
-[NEXT]
-
-So now we understand some of the implications
-
-## What's next?
-
-### Let's have a look at some solutions
-
-[NEXT SECTION]
-
-# 3. Existing Tools
-
-[NEXT]
-
-I'm putting together a list in Github on
-
-# "Awesome MLOps"
-
-with the tools available for ML Operations
-
-## Feel free to chip in!
-
-<br>
-#### <a href="bit.ly/awesome-mlops">bit.ly/awesome-mlops</a>
-
-
-[NEXT]
-<!-- .slide: data-background="images/network-background.jpg" class="background" -->
-
-<h1><font style="color:#76f0ff">ML</font>Ops / <font style="color:#76f0ff">Data</font>Ops</h1>
-<h4>a curated list of frameworks to scale<br> your <font style="color:#76f0ff">machine learning</font> capabilities<br></h4>
-<p>
-  <br />
-  <a style="color:#76f0ff" href="">bit.ly/awesome-mlops</a>
-  <br />
-  <br />
-</p>
-<p>
-
-
-[NEXT]
-<!-- .slide: data-background="images/network-background.jpg" class="background" -->
-
-<h1>The <font style="color:#76f0ff">AI</font>/<font style="color:#76f0ff">ML</font> Principles</font></h1>
-<h4>A practical <font style="color:#76f0ff">industry framework</font> to develop<br> <font style="color:#76f0ff">AI</font> & <font style="color:#76f0ff">machine learning</font> systems <font style="color:#76f0ff">responsibly</font></h4>
-  <br />
-  <h4><a style="color:#76f0ff" href="">http://ethical.institute/</a></h4>
-  <br />
-  <br />
-<p>
-
-
-
-[NEXT]
-
-# Principle I 
-## Reproducibility
-Model and data versioning
-
-[NEXT]
-
-## PMML
-
-A standard way of representing machine learning model pipelines for storage and serialisation
-
-<iframe src="http://dmg.org/pmml/v4-1/GeneralStructure.html" frameborder="0" style="width: 100%; height: 40vh"></iframe>
-
-Several systems use it to transfer models across platforms
-
-[NEXT]
-## PMML
-
-#### Exporting to PMML using sklearn2pmml
-```
-from sklearn import datasets, tree
-iris = datasets.load_iris()
-clf = tree.DecisionTreeClassifier()
-clf = clf.fit(iris.data, iris.target)
-
-from sklearn_pandas import DataFrameMapper
-default_mapper = DataFrameMapper(
-    [(i, None) for i in iris.feature_names + ['Species']])
-
-from sklearn2pmml import sklearn2pmml
-sklearn2pmml(estimator=clf,
-             mapper=default_mapper,
-             pmml="D:/workspace/IrisClassificationTree.pmml")
-```
-
-[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## Data Version Control (DVC)
 
-A full-on Open-source Version Control System for Data Science Projects
-
-<div class="left-col">
-<br>
-A fork of git, built by iterative.ai, that allows for grouping data, 
-config and code through a version control system
-</div>
-
-<div class="right-col">
-![classification_large](images/dvc.png)
-</div>
-
-
-
-[NEXT]
-
-## Data Version Control (DVC)
 
 #### Add your data
 
@@ -606,7 +225,7 @@ config and code through a version control system
 dvc add images.zip
 ```
 
-#### Connect data input, model output and code
+#### commit data input, model output and code
 
 ```
 dvc run -d images.zip -o model.p ./cnn.py
@@ -625,10 +244,9 @@ dvc push
 ```
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## ModelDB
-
-A more implicit way of tracking the inputs, outputs and configurations on a library-level by extending the functions themselves. 
 
 <div class="left-col">
 <h4>Normal sklearn</h4>
@@ -655,161 +273,119 @@ def fit_and_predict(data):
 </code></pre>
 </div>
 
-This basically stores all the steps that were used, together with the results and predictions of the model
+![classification_large](images/modeldb-dashboard.png)
 
 
-[NEXT]
-
-## ModelDB
-
-This allows for exploration of models that have been run
-
-<!--<iframe src="http://modeldb.csail.mit.edu:3000/projects/1/models" frameborder="0" style="width: 100%; height: 50vh"></iframe>-->
-<iframe src="https://mitdbg.github.io/modeldb/" frameborder="0" style="width: 100%; height: 50vh"></iframe>
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-# Pachyderm 
+## Pachyderm 
 
 ![classification_large](images/pachyderm.png)
 
 Pachyderm is an end-to-end model-versioning framework that allows for reproducible pipeline definitions.
 
 [NEXT]
-
-## Pachyderm
-
-Pachyderm consists of three main components:
-* Data "repositories"
-* Processing steps wrapped in docker containers
-* Pipelines that connect steps and data repositories
-
-<br>
-#### Each step contains an input and output of data
-
-[NEXT]
-
-## Pachyderm Example
-
-Building a training pipeline for iris classifier
-
-Using sklearn svm, output a training model
-
-
-[NEXT]
-
-## Create a repo and add data
-
-Create a repo
-```
-$ pachctl create-repo training
-$ pachctl list-repo
-NAME                CREATED             SIZE
-training            2 minutes ago       0 B
-```
-
-Commit data (with -c flag) into the repository
-```
-$ pachctl put-file training master -c -f data/iris.csv
-```
-
-[NEXT]
-
-## Build your docker image
-
-
-<div class="left-col">
-<h4>pytrain.py</h4>
-
-<pre><code class="code python hljs" style="font-size: 0.6em; line-height: 1em"># pytrain.py
-
-...import dependencies
- 
-cols = [ "Sepal_Length", "Sepal_Width", "Petal_Length", "Petal_Width", "Species" ]
-features = [ "Sepal_Length", "Sepal_Width", "Petal_Length", "Petal_Width" ]
-
-# Load training data
-irisDF = pd.read_csv(os.path.join("/pfs/training", 
-    "iris.csv"), names=cols)
-
-svc = svm.SVC(kernel='linear', C=1.0).fit(
-    irisDF[features], irisDF["Species"])
-
-# Save model to pachyderm /pfs/out
-joblib.dump(svc, os.path.join("/pfs/out", 'model.pkl'))
-
-</code></pre>
-</div>
-
-
-<div class="right-col">
-<h4>Dockerfile</h4>
-
-<pre><code class="code python hljs" style="font-size: 1em; line-height: 1em">
-FROM ubuntu:14.04
-
-...install dependencies 
-
-# Add our own code.
-WORKDIR /code
-ADD pytrain.py /code/pytrain.py
-
-
-</code></pre>
-</div>
-
-[NEXT]
-
-## Define computational pipeline
-
-```
-{
-  "pipeline": {
-    "name": "model"
-  },
-  "transform": {
-    "image": "pachyderm/iris-train:python-svm",
-    "cmd": ["python3", "/code/pytrain.py",]
-  },
-  "input": {
-    "atom": {
-      "repo": "training",
-      "glob": "/"
-    }
-  }
-}
-```
-
-[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## Reproducible pipeline
 
-![classification_large](images/iris.png)
-
-# Now what?
+![classification_large](images/pachyderm-dashboard.png)
 
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-# Principle II
-## Orchestration
-Model Deployment Orchestration
+# Model Orchestration
+
+![classification_large](images/mltemp3.png)
+
+Covers complexities of serving models in production
+
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Computational Resource allocation
+
+Services with different computational requirements
+
+With often complex computational graphs
+
+We need to be able to allocate the right resources
+
+<br>
+### This is a hard problem
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+#### Usage vs Traditional Servers
+![classification_large](images/arch3.png)
+
+[source: <a href="https://algorithmia.com/">Algorithmia</a>]
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+#### Usage vs Elastic Servers
+![classification_large](images/arch2.png)
+
+[source: <a href="https://algorithmia.com/">Algorithmia</a>]
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+#### Usage vs Serverless
+
+![classification_large](images/arch1.png)
+
+[source: <a href="https://algorithmia.com/">Algorithmia</a>]
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+#### Serverless vs MapReduce (Publications)
+
+![classification_large](images/serverless-popularity.png)
+
+[source: Arxiv Paper - <a href="https://arxiv.org/pdf/1812.03651.pdf">Serverless: One step fwd, two back</a>]
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Ones to watch
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Seldon-core
+
+![classification_large](images/seldon1.png)
+
+"Machine Learning Deployment for Enterprise"
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+![classification_large](images/seldon3.png)
+## Strong focus on model orchestration
+![classification_large](images/seldon2.png)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## MLeap
 
 Diving one level deeper into serialization of models
 
-<div class="left-col">
 ![classification_large](images/mleapruntime.jpg)
-</div>
-<div class="right-col">
-<br>
-MLeap is used in open source projects that look to abstract the serialisation, execution of various machine learning libraries.
-</div>
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## MLeap Serving
 Run the server
@@ -827,51 +403,122 @@ curl -XPUT -H "content-type: application/json" \
 ```
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+## DeepDetect
 
-## MLeap Optimized bundles
+Unifying multiple external machine learning libraries on a single API
 
-![classification_large](images/mleapbundle.png)
+![classification_large](images/deepdetect.png)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Deepdetect dashboard
+![classification_large](images/deepdetect-dashboard.png)
 
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+# Explainability
+Tackling "black box model" situations
 
-## Seldon-core
-
-![classification_large](images/seldon1.png)
-
-"Machine Learning Deployment for Enterprise"
-
-[NEXT]
-
-![classification_large](images/seldon3.png)
-## Strong focus on model orchestration
-![classification_large](images/seldon2.png)
+![classification_large](images/mlops2.png)
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+## Going beyond the algorithms 
+Explainability through tools, process and domain expertise.
+![classification_large](images/bias.png)
 
-### Tackling the CI/CD challenge
-![classification_large](images/cicd.png)
+[Our talk on <a href="https://www.youtube.com/watch?v=GZpfBhQJ0H4">Explainability of Tensorflow Models</a>]
 
-[NEXT]
-
-### Enabling monitoring with grafana
-![classification_large](images/dashboard.png)
-
-[NEXT]
-
-# What about us?
-### We built our infrastructure:
-* Nightly accuracy monitoring framework
-* Internal JSON standard for metadata model versioning
-* Distributed manager-worker rabbitmq architecture
-* Generalised abstraction layer above ML libraries
-* SDK interface to extend pipelines 
-* End to end data pipeline framework
-* Internal machine learning data labelling tools
 
 [NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-# What about you?
+## Data assessment
+
+<div class="left-col">
+<br>
+<ul>
+    <li>Class imbalances</li>
+    <li>Protected features</li>
+    <li>Correlations</li>
+    <li>Data representability</li>
+</ul>
+</div>
+<div class="right-col">
+<img src="images/class-imbalance.png" alt="">
+</div>
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Model assessment
+
+<div class="left-col">
+<img src="images/shap-values.png" style="background-color: white !important" alt="">
+</div>
+<div class="right-col">
+<br>
+<ul>
+    <li>Feature importance</li>
+    <li>Model specific methods</li>
+    <li>Domain knowledge abstraction</li>
+    <li>Model metrics analysis</li>
+</ul>
+</div>
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Production monitoring
+
+
+<div class="left-col">
+<img src="images/roc-monitoring.png" alt="">
+</div>
+<div class="right-col">
+<ul>
+    <li>Evaluation of metrics</li>
+    <li>Manual human review</li>
+    <li>Monitoring of anomalies</li>
+    <li>Setting thresholds for divergence</li>
+</ul>
+</div>
+
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+# Ones to watch
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## ELI5
+![classification_large](images/eli5-text.png)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+## SHAP
+
+Unifying multiple model explainability techniques
+
+![classification_large](images/minst-image-plot.png)
+<!-- .element: style="background-color: white !important" -->
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+## XAI
+Analyse datasets, evaluate models and monitor production
+
+![classification_large](images/xai-pr.png)
+
+[Open source project maintained by us]
 
 [NEXT SECTION]
 <!-- .slide: data-background="images/network-background.jpg" class="background smallest" -->
