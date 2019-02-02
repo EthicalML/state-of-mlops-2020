@@ -1,6 +1,6 @@
-# Meditations on first deployment
+# FOSDEM 2019: The state of machine learning operations in 2019
 
-This repository contains a presentation of the AI procurement framework. If you are looking for the official repository for The 8 Machine Learning Principles, please go to the <a href="https://github.com/EthicalML/ethical">Open Source Website for The Institute for Ethical AI & ML</a>. 
+This repository contains a presentation of the state of machine learning operations in 2019. 
 
-## [View All Presentation](https://ethicalml.github.io/meditations-on-first-deployment/#/)
+## [View Live Presentation](https://ethicalml.github.io/state-of-mlops-2019/#/)
 
