@@ -221,6 +221,8 @@ dvc remote add myrepo s3://mybucket
 dvc push
 ```
 
+#### Check it out at <a href="https://dvc.org">dvc.org</a>
+
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
@@ -253,6 +255,8 @@ def fit_and_predict(data):
 
 ![classification_large](images/modeldb-dashboard.png)
 
+#### <a href="https://senselab.med.yale.edu/ModelDB/">senselab.med.yale.edu/ModelDB/</a>
+
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -260,6 +264,7 @@ def fit_and_predict(data):
 ## Pachyderm 
 ![classification_large](images/pachyderm-dashboard.png)
 
+#### <a href="https://www.pachyderm.io/">www.pachyderm.io/</a>
 
 [NEXT SECTION]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -333,6 +338,8 @@ We need to be able to allocate the right resources
 ## Seldon
 ![classification_large](images/seldon2.png)
 
+#### <a href="https://seldon.io">seldon.io</a>
+
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
@@ -350,6 +357,8 @@ Diving one level deeper into serialization of models
 Unifying multiple external machine learning libraries on a single API
 
 ![classification_large](images/deepdetect.png)
+
+#### <a href="https://www.deepdetect.com/">www.deepdetect.com/</a>
 
 
 [NEXT SECTION]
@@ -436,6 +445,8 @@ Explainability through tools, process and domain expertise.
 ## ELI5
 ![classification_large](images/eli5-text.png)
 
+#### <a href="https://github.com/TeamHG-Memex/eli5">github.com/TeamHG-Memex/eli5</a>
+
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -446,6 +457,8 @@ Unifying multiple model explainability techniques
 ![classification_large](images/minst-image-plot.png)
 <!-- .element: style="background-color: white !important" -->
 
+#### <a href="https://github.com/slundberg/shap">github.com/slundberg/shap</a>
+
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 ## XAI
@@ -453,61 +466,65 @@ Analyse datasets, evaluate models and monitor production
 
 ![classification_large](images/xai-pr.png)
 
-[Open source project maintained by us]
+#### <a href="https://github.com/ethicalml/xai">github.com/ethicalml/xai</a>
 
 [NEXT SECTION]
 <!-- .slide: data-background="images/network-background.jpg" class="background smallest" -->
 
 ## Much more content
 
+
 ||||
 |-|-|-|
-|Explainability |Privacy | Versioning|
-|Orchestration|Feature Engineering|AutoML|
-| Notebooks | Visualisation | NLP |
-| ETL | Storage | FaaS |
-| Computation | Serialisation | Compiler  |
-
+|[🔍 Explainability](https://github.com/EthicalML/awesome-machine-learning-operations#1-explaining-black-box-models-and-datasets) |[🔏 Privacy](https://github.com/EthicalML/awesome-machine-learning-operations#2-privacy-preserving-machine-learning) | [📜 Versioning](https://github.com/EthicalML/awesome-machine-learning-operations#3-model-and-data-versioning)|
+|[🏁 Orchestration](https://github.com/EthicalML/awesome-machine-learning-operations#4-model-deployment-and-orchestration-frameworks)|[🌀 FeaturEng](https://github.com/EthicalML/awesome-machine-learning-operations#5-feature-engineering-automation)|[🤖 AutoML](https://github.com/EthicalML/awesome-machine-learning-operations#6-neural-architecture-search)|
+| [📓 Notebooks](https://github.com/EthicalML/awesome-machine-learning-operations#7-data-science-notebook-frameworks) | [📊 Visualisation](https://github.com/EthicalML/awesome-machine-learning-operations#8-industrial-strength-visualisation-libraries) | [🔠 NLP](https://github.com/EthicalML/awesome-machine-learning-operations#9-industrial-strength-nlp) |
+| [🧵 ETL](https://github.com/EthicalML/awesome-machine-learning-operations#10-data-pipeline-etl-frameworks) | [🗞️ Storage](https://github.com/EthicalML/awesome-machine-learning-operations#11-data-storage-optimisation) | [📡 FaaS](https://github.com/EthicalML/awesome-machine-learning-operations#12-function-as-a-service-frameworks) |
+| [🗺️ Computation](https://github.com/EthicalML/awesome-machine-learning-operations#13-computation-load-distribution-frameworks) | [📥 Serialisation](https://github.com/EthicalML/awesome-machine-learning-operations#14-model-serialisation-formats) | [🎁 Compiler](https://github.com/EthicalML/awesome-machine-learning-operations#15-compiler-optimisation-frameworks)  |
+| [💸 CommercialML](https://github.com/EthicalML/awesome-machine-learning-operations#16-commercial-data-science-platforms) | [💰 CommercialETL](https://github.com/EthicalML/awesome-machine-learning-operations#17-commercial-etl-platforms)| |
 <br>
 ### Check it out & add more libraries
 
 [NEXT]
 <!-- .slide: data-background="images/network-background.jpg" class="background" -->
 
-<h2>Scalable Machine Learning</h2>
-<h4>The state of DataOps / MLOps in 2018</h4>
+<h2>The Institute for Ethical AI & ML</h2>
+<h3>The state of MLops in 2019</h3>
 
-<table class="bio-table">
+<table class="bio-table" style="margin-top: -30px">
   <tr>
     <td style="float: left">
+        <br>
         ![portrait](images/alejandro.jpg)
         <br>
         <font style="font-weight: bold; color: white">Alejandro Saucedo</font>
         <br>
-        <br>
+        Twitter: <a href="https://twitter.com/axsaucedo">@AxSaucedo</a>
     </td>
     <td style="float: left; color: white; font-size: 0.7em;">
 
-        Head of Solutions Eng./Science
         <br>
-        <a style="color: cyan" href="http://e-x.io">Eigen Technologies</a
+        Chief Scientist
         <br>
-        <br>
-        <br>
-        Chairman
-        <br>
-        <a style="color: cyan" href="http://ethical.institute">The Institute for Ethical AI & ML</a>
+        <a style="color: cyan" href="http://e-x.io">The Institute for Ethical AI & ML</a
         <br>
         <br>
-        Member, Broader AI Expert Group
         <br>
-        <a style="color: cyan" href="#">European Commission</a>
+        <hr>
+        <br>
+        Head of Solutions Eng. & Sci.
+        <br>
+        <a style="color: cyan" href="http://eigentech.com">Eigen Technologies</a>
         <br>
         <br>
-        Advisory group
+        Chief Technology Officer
         <br>
-        <a style="color: cyan" href="http://teensinai.com">TeensInAI</a>
+        <a style="color: cyan" href="#">Hack Partners</a>
         <br>
+        <br>
+        Software Engineer
+        <br>
+        <a style="color: cyan" href="#">Bloomberg LP.</a>
 
     </td>
   </tr>
