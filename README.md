@@ -8,10 +8,10 @@ This repository contains a presentation of the state of machine learning operati
 <table>
   <tr>
     <td width="30%">
-        [Click here to check out the Awesome ML Operations Repo](https://github.com/EthicalML/awesome-machine-learning-operations)
+        <a href="https://github.com/EthicalML/awesome-machine-learning-operations">Click here to check out the Awesome ML Operations Repo</a>
     </td>
     <td width="70%">
-        <img src="images/mlops-link.png">
+        <a href="https://github.com/EthicalML/awesome-machine-learning-operations"><img src="images/mlops-link.png"></a>
     </td>
   </tr>
 </table>
