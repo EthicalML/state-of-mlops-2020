@@ -2,19 +2,19 @@
 
 This repository contains a presentation of the state of machine learning operations in 2019. 
 
-* [View Live Presentation](https://ethicalml.github.io/state-of-mlops-2019/#/)
-* [Link to Awesome MLOps Repo](https://github.com/EthicalML/awesome-machine-learning-operations)
+* [View Live Slides](https://ethicalml.github.io/state-of-mlops-2019/#/)
 
-## Links to awesome MLOps libraries
 
-||||
-|-|-|-|
-|[🔍 Explaining predictions & models](https://github.com/EthicalML/awesome-machine-learning-operations#1-explaining-black-box-models-and-datasets) |[🔏 Privacy preserving ML](https://github.com/EthicalML/awesome-machine-learning-operations#2-privacy-preserving-machine-learning) | [📜 Model & data versioning](https://github.com/EthicalML/awesome-machine-learning-operations#3-model-and-data-versioning)|
-|[🏁 Model Orchestration](https://github.com/EthicalML/awesome-machine-learning-operations#4-model-deployment-and-orchestration-frameworks)|[🌀 Feature engineering](https://github.com/EthicalML/awesome-machine-learning-operations#5-feature-engineering-automation)|[🤖 Neural Architecture Search](https://github.com/EthicalML/awesome-machine-learning-operations#6-neural-architecture-search)|
-| [📓 Reproducible Notebooks](https://github.com/EthicalML/awesome-machine-learning-operations#7-data-science-notebook-frameworks) | [📊 Visualisation frameworks](https://github.com/EthicalML/awesome-machine-learning-operations#8-industrial-strength-visualisation-libraries) | [🔠 Industry-strength NLP](https://github.com/EthicalML/awesome-machine-learning-operations#9-industrial-strength-nlp) |
-| [🧵 Data pipelines & ETL](https://github.com/EthicalML/awesome-machine-learning-operations#10-data-pipeline-etl-frameworks) | [🗞️ Data storage](https://github.com/EthicalML/awesome-machine-learning-operations#11-data-storage-optimisation) | [📡 Functions as a service](https://github.com/EthicalML/awesome-machine-learning-operations#12-function-as-a-service-frameworks) |
-| [🗺️ Computation distribution](https://github.com/EthicalML/awesome-machine-learning-operations#13-computation-load-distribution-frameworks) | [📥 Model serialisation](https://github.com/EthicalML/awesome-machine-learning-operations#14-model-serialisation-formats) | [🎁 Compiler optimisation](https://github.com/EthicalML/awesome-machine-learning-operations#15-compiler-optimisation-frameworks)  |
-| [💸 Commercial ML](https://github.com/EthicalML/awesome-machine-learning-operations#16-commercial-data-science-platforms) | [💰 Commercial ETL](https://github.com/EthicalML/awesome-machine-learning-operations#17-commercial-etl-platforms)| |
+<table>
+  <tr>
+    <td width="30%">
+        [Click here to check out the Awesome ML Operations Repo](https://github.com/EthicalML/awesome-machine-learning-operations)
+    </td>
+    <td width="70%">
+        <img src="images/mlops-link.png">
+    </td>
+  </tr>
+</table>
 
 
 ## Speaker: Alejandro Saucedo
