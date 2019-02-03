@@ -28,11 +28,12 @@ This repository contains a presentation of the state of machine learning operati
 
 ||||
 |-|-|-|
-|Explainability |Privacy | Versioning|
-|Orchestration|Feature Engineering|AutoML|
-| Notebooks | Visualisation | NLP |
-| ETL | Storage | FaaS |
-| Computation | Serialisation | Compiler  |
+|[1. Explainability](https://github.com/EthicalML/awesome-machine-learning-operations#1-explaining-black-box-models-and-datasets) |[2. Privacy](https://github.com/EthicalML/awesome-machine-learning-operations#2-privacy-preserving-machine-learning) | [3. Pipeline versioning](https://github.com/EthicalML/awesome-machine-learning-operations#3-model-and-data-versioning)|
+|[4. Orchestration](https://github.com/EthicalML/awesome-machine-learning-operations#4-model-deployment-and-orchestration-frameworks)|[5. Feature engineering](https://github.com/EthicalML/awesome-machine-learning-operations#5-feature-engineering-automation)|[6. AutoML](https://github.com/EthicalML/awesome-machine-learning-operations#6-neural-architecture-search)|
+| [7. Notebooks](https://github.com/EthicalML/awesome-machine-learning-operations#7-data-science-notebook-frameworks) | [8. Visualisation](https://github.com/EthicalML/awesome-machine-learning-operations#8-industrial-strength-visualisation-libraries) | [9. NLP](https://github.com/EthicalML/awesome-machine-learning-operations#9-industrial-strength-nlp) |
+| [10. Data pipelines](https://github.com/EthicalML/awesome-machine-learning-operations#10-data-pipeline-etl-frameworks) | [11. Storage](https://github.com/EthicalML/awesome-machine-learning-operations#11-data-storage-optimisation) | [12. Functions as a service](https://github.com/EthicalML/awesome-machine-learning-operations#12-function-as-a-service-frameworks) |
+| [13. Computation](https://github.com/EthicalML/awesome-machine-learning-operations#13-computation-load-distribution-frameworks) | [14. Serialisation](https://github.com/EthicalML/awesome-machine-learning-operations#14-model-serialisation-formats) | [15. Compiler optimisation](https://github.com/EthicalML/awesome-machine-learning-operations#15-compiler-optimisation-frameworks)  |
+| [16. Commercial ML](https://github.com/EthicalML/awesome-machine-learning-operations#16-commercial-data-science-platforms) | [17. Commercial ETL](https://github.com/EthicalML/awesome-machine-learning-operations#17-commercial-etl-platforms)| |
 
 
 ## Speaker: Alejandro Saucedo
