@@ -351,3 +351,9 @@ div {
     clear: both;
     width:100%;
 }
+
+@media screen and (max-width: 1000px)/* , screen and (max-height: 1100px) */  {
+    #ribbon-writing {
+        display: none;
+    }
+}
