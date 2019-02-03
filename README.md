@@ -2,8 +2,17 @@
 
 This repository contains a presentation of the state of machine learning operations in 2019. 
 
-* [View Live Slides](https://ethicalml.github.io/state-of-mlops-2019/#/)
 
+<table>
+  <tr>
+    <td width="30%">
+        <a href="https://ethicalml.github.io/state-of-mlops-2019/#/">Click here to check out the live slides</a>
+    </td>
+    <td width="70%">
+        <a href="https://ethicalml.github.io/state-of-mlops-2019/#/"><img src="images/mlops-slides.png"></a>
+    </td>
+  </tr>
+</table>
 
 <table>
   <tr>
