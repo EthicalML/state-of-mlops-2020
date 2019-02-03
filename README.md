@@ -25,6 +25,16 @@ This repository contains a presentation of the state of machine learning operati
 * [16. Commercial data science platforms](https://github.com/EthicalML/awesome-machine-learning-operations#16-commercial-data-science-platforms)
 * [17. Commercial etl platforms](https://github.com/EthicalML/awesome-machine-learning-operations#17-commercial-etl-platforms)
 
+
+||||
+|-|-|-|
+|Explainability |Privacy | Versioning|
+|Orchestration|Feature Engineering|AutoML|
+| Notebooks | Visualisation | NLP |
+| ETL | Storage | FaaS |
+| Computation | Serialisation | Compiler  |
+
+
 ## Speaker: Alejandro Saucedo
 * Linkedin: https://linkedin.com/in/AxSaucedo/
 * Twitter: https://twitter.com/AxSaucedo/
