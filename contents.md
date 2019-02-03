@@ -8,31 +8,17 @@
   <br />
     Alejandro Saucedo | <a href="">a@ethical.institute</a><br/><br/>
     Twitter: <a href="http://twitter.com/AxSaucedo">@AxSaucedo</a><br/>
-    Slides: <a href="http://bit.ly/mlops19">bit.ly/mlops19</a><br/>
   <br />
 </p>
 
 [NEXT]
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
-Data science generalised in two workflows
 
-* Model Development
-* Model Serving
-
+## Small data science projects
 ![classification_large](images/ml-pipeline.png)
 <!-- .element: style="background-color: white !important" -->
 
-[NEXT]
-<!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
-
-If we have a small data science project...
-* Small number of models to maintain
-* Knowledgee in head of data scientists, engineers, etc
-* Each has own methods for tracking progress
-* The impact of errors is relatively lower
-
-<br>
-### It all works relatively well!
+### Works relatively well
 
 
 [NEXT]
@@ -77,27 +63,6 @@ As our data science requirements grow...
 #### When stuff goes wrong it's hard to trace back
 ![classification_large](images/gitblame.jpg)
 
-[NEXT]
-<!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
-## It's challenging
-![full_height](images/mleng-roles.png)
-
-
-[NEXT SECTION]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-# 2. Principles
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-<h1 style="color: white !important">Awesome <font style="color:#00ffda">ML</font>Ops</h1>
-<h4>a curated list of open source frameworks based on the <a href="https://ethical.institute/principles.html" style="color: #00ffda">8 principles</a> for responsible ml.</h4>
-![classification_large](images/mlops-now.png)
-  <a style="color:#00ffda" href="https://bit.ly/awesome-mlops">bit.ly/awesome-mlops</a>
-  <br />
-  <br />
-
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -112,6 +77,22 @@ As our data science requirements grow...
 ### So should your infrastructure
 
 ![classification_large](images/mlops1.png)
+
+[NEXT]
+<!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
+## It's challenging
+![full_height](images/mleng-roles.png)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+<h1 style="color: white !important">Awesome <font style="color:#00ffda">ML</font>Ops</h1>
+<h4>Libraries to deploy, version, monitor & scale ML</h4>
+![classification_large](images/mlops-now.png)
+  <a style="color:#00ffda" href="https://bit.ly/awesome-mlops">bit.ly/awesome-mlops</a>
+  <br />
+  <br />
 
 
 [NEXT]
@@ -132,14 +113,11 @@ As our data science requirements grow...
 <img src="images/mlops2.png" alt="">
 </div>
 
-
-[NEXT]
+[NEXT SECTION]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-## Reproducibility
-Model & data provenance
-
+# 2.1 Reproducibility
 ![classification_large](images/mltemp6.png)
-
+### Model & data provenance
 
 
 [NEXT]
@@ -283,14 +261,14 @@ def fit_and_predict(data):
 ![classification_large](images/pachyderm-dashboard.png)
 
 
-[NEXT]
+[NEXT SECTION]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-# Model Orchestration
+# 2.2 Model Orchestration
 
 ![classification_large](images/mltemp3.png)
 
-Covers complexities of serving models in production
+### Training & serving at scale
 
 
 [NEXT]
@@ -374,9 +352,9 @@ Unifying multiple external machine learning libraries on a single API
 ![classification_large](images/deepdetect.png)
 
 
-[NEXT]
+[NEXT SECTION]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-# Explainability
+# 2.3 Explainability
 Tackling "black box model" situations
 
 ![classification_large](images/mlops2.png)
@@ -480,25 +458,18 @@ Analyse datasets, evaluate models and monitor production
 [NEXT SECTION]
 <!-- .slide: data-background="images/network-background.jpg" class="background smallest" -->
 
-## Scalable Machine Learning
-> Motivations
-> <br>
-> <br>
-> Concepts
-> <br>
-> <br>
-> Existing Tools
+## Much more content
 
-####  Slides at: <a style="color: cyan" href="#">bit.ly/awesome-mlops</a>
+||||
+|-|-|-|
+|Explainability |Privacy | Versioning|
+|Orchestration|Feature Engineering|AutoML|
+| Notebooks | Visualisation | NLP |
+| ETL | Storage | FaaS |
+| Computation | Serialisation | Compiler  |
 
-
-[NEXT]
-<!-- .slide: data-background="images/network-background.jpg" class="background" -->
-### Scalable Machine Learning
-https://bit.ly/scalable-data-science
-
-### Awesome MLOps List
-http://bit.ly/awesome-mlops
+<br>
+### Check it out & add more libraries
 
 [NEXT]
 <!-- .slide: data-background="images/network-background.jpg" class="background" -->
