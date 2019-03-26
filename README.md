@@ -6,10 +6,10 @@ This repository contains a presentation of the state of machine learning operati
 <table>
   <tr>
     <td width="30%">
-        <a href="https://ethicalml.github.io/state-of-mlops-2019/#/">Click here to check out the live slides</a>
+        <a href="https://ethicalml.github.io/state-of-mlops-2019/#/">Click here to watch the video of the talk at FOSDEM 2018</a>
     </td>
     <td width="70%">
-        <a href="https://ethicalml.github.io/state-of-mlops-2019/#/"><img src="images/mlops-slides.png"></a>
+        <a href="https://youtu.be/e21fQtI5YlY"><img src="images/mlops-slides.png"></a>
     </td>
   </tr>
 </table>
