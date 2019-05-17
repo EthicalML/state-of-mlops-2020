@@ -6,10 +6,10 @@ This repository contains a presentation of the state of machine learning operati
 <table>
   <tr>
     <td width="30%">
-        <a href="https://youtu.be/e21fQtI5YlY">Click here to watch the video of the talk at FOSDEM 2018</a>
+        <a href="https://www.youtube.com/watch?v=Ynb6X0KZKxY">Click here to watch the video of the talk at FOSDEM 2018</a>
     </td>
     <td width="70%">
-        <a href="https://youtu.be/e21fQtI5YlY"><img src="images/mlops-slides.png"></a>
+        <a href="https://www.youtube.com/watch?v=Ynb6X0KZKxY"><img src="images/mlops-slides.png"></a>
     </td>
   </tr>
 </table>
