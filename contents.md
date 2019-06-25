@@ -2,7 +2,7 @@
 <!-- .slide: data-background="images/network-background.jpg" class="background" -->
 
 <h2>The Institute for Ethical AI & ML</h2>
-<h3>The state of MLOps in 2019</h3>
+<h3>The state of Production ML in 2019</h3>
 <p>
   <br />
   <br />
@@ -10,6 +10,72 @@
     Twitter: <a href="http://twitter.com/AxSaucedo">@AxSaucedo</a><br/>
   <br />
 </p>
+
+[NEXT]
+<!-- .slide: data-background="images/network-background.jpg" class="background" -->
+
+<h2>The Institute for Ethical AI & ML</h2>
+
+<h4>The state of Production ML in 2019</h4>
+
+<table class="bio-table">
+  <tr>
+    <td style="float: left">
+        <br>
+        ![portrait](images/aletechuk.png)
+        <br>
+        <font style="font-weight: bold; color: white">Alejandro Saucedo</font>
+        <br>
+        Twitter: <a href="https://twitter.com/axsaucedo">@AxSaucedo</a>
+    </td>
+    <td style="float: left; color: white; font-size: 0.7em;">
+
+        <br>
+        Chief Scientist
+        <br>
+        <a style="color: cyan" href="http://e-x.io">The Institute for Ethical AI & ML</a
+        <br>
+        <br>
+        <br>
+        Engineering Director
+        <br>
+        <a style="color: cyan" href="#">Seldon Technologies</a>
+        <br>
+        <br>
+        <hr>
+        <br>
+        Head of Solutions Eng. & Sci.
+        <br>
+        <a style="color: cyan" href="http://eigentech.com">Eigen Technologies</a>
+        <br>
+        <br>
+        Software Engineer
+        <br>
+        <a style="color: cyan" href="#">Bloomberg LP.</a>
+
+    </td>
+  </tr>
+  <tr>
+  </tr>
+</table>
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## The Institute for Ethical AI & Machine Learning
+
+<iframe style="width: 100%; height: 70vh" src="https://ethical.institute/">
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+![classification_large](images/seldon3.png)
+## Seldon
+![classification_large](images/seldon2.png)
+
+#### <a href="https://seldon.io">seldon.io</a>
+
 
 [NEXT]
 <!-- .slide: data-background="images/parti.png" class="background smallquote" style="color: white" -->
@@ -87,12 +153,21 @@ As our data science requirements grow...
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-<h1 style="color: white !important">Awesome <font style="color:#00ffda">ML</font>Ops</h1>
-<h4>Libraries to deploy, version, monitor & scale ML</h4>
-![classification_large](images/mlops-now.png)
-  <a style="color:#00ffda" href="https://bit.ly/awesome-mlops">bit.ly/awesome-mlops</a>
-  <br />
-  <br />
+## We've mapped the ecosystem
+
+
+||||
+|-|-|-|
+|[🔍 Explainability](https://github.com/EthicalML/awesome-machine-learning-operations#1-explaining-black-box-models-and-datasets) |[🔏 Privacy](https://github.com/EthicalML/awesome-machine-learning-operations#2-privacy-preserving-machine-learning) | [📜 Versioning](https://github.com/EthicalML/awesome-machine-learning-operations#3-model-and-data-versioning)|
+|[🏁 Orchestration](https://github.com/EthicalML/awesome-machine-learning-operations#4-model-deployment-and-orchestration-frameworks)|[🌀 FeaturEng](https://github.com/EthicalML/awesome-machine-learning-operations#5-feature-engineering-automation)|[🤖 AutoML](https://github.com/EthicalML/awesome-machine-learning-operations#6-neural-architecture-search)|
+| [📓 Notebooks](https://github.com/EthicalML/awesome-machine-learning-operations#7-data-science-notebook-frameworks) | [📊 Visualisation](https://github.com/EthicalML/awesome-machine-learning-operations#8-industrial-strength-visualisation-libraries) | [🔠 NLP](https://github.com/EthicalML/awesome-machine-learning-operations#9-industrial-strength-nlp) |
+| [🧵 ETL](https://github.com/EthicalML/awesome-machine-learning-operations#10-data-pipeline-etl-frameworks) | [🗞️ Storage](https://github.com/EthicalML/awesome-machine-learning-operations#11-data-storage-optimisation) | [📡 FaaS](https://github.com/EthicalML/awesome-machine-learning-operations#12-function-as-a-service-frameworks) |
+| [🗺️ Computation](https://github.com/EthicalML/awesome-machine-learning-operations#13-computation-load-distribution-frameworks) | [📥 Serialisation](https://github.com/EthicalML/awesome-machine-learning-operations#14-model-serialisation-formats) | [🎁 Compiler](https://github.com/EthicalML/awesome-machine-learning-operations#15-compiler-optimisation-frameworks)  |
+| [💸 CommercialML](https://github.com/EthicalML/awesome-machine-learning-operations#16-commercial-data-science-platforms) | [💰 CommercialETL](https://github.com/EthicalML/awesome-machine-learning-operations#17-commercial-etl-platforms)| |
+<br>
+
+### https://bit.ly/awesome-mlops
+
 
 
 [NEXT]
@@ -117,7 +192,7 @@ As our data science requirements grow...
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 # 2.1 Reproducibility
 ![classification_large](images/mltemp6.png)
-### Model & data provenance
+### Model & data versioning
 
 
 [NEXT]
@@ -181,9 +256,15 @@ We can abstract our entire pipeline and data flows
 
 ![classification_large](images/mltemp5.png)
 
-_note_
-Similarly we can store the accuracy of the model
-Together with all the parameters that were used to compute it
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Case study: 
+
+Reusable NLP Pipelines: https://bit.ly/seldon-kf-nlp
+
+![classification_large](images/kubeflowexample.jpg)
 
 
 [NEXT]
@@ -294,51 +375,42 @@ We need to be able to allocate the right resources
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-#### Usage vs Traditional Servers
-![classification_large](images/arch3.png)
+## Adding Governance/Compliance
 
-[source: <a href="https://algorithmia.com/">Algorithmia</a>]
+![classification_large](images/mleng-expertise.png)
 
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-#### Usage vs Elastic Servers
-![classification_large](images/arch2.png)
-
-[source: <a href="https://algorithmia.com/">Algorithmia</a>]
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-#### Usage vs Serverless
+## Standardisation of metrics
 
-![classification_large](images/arch1.png)
+![classification_large](images/grafana.jpg)
 
-[source: <a href="https://algorithmia.com/">Algorithmia</a>]
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-#### Serverless vs MapReduce (Publications)
+## Standardisation of errors
 
-![classification_large](images/serverless-popularity.png)
+![classification_large](images/kibana.jpg)
 
-[source: Arxiv Paper - <a href="https://arxiv.org/pdf/1812.03651.pdf">Serverless: One step fwd, two back</a>]
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Example:
+
+PyTorch Hub Deployment: https://bit.ly/pytorchseldon
+
+![classification_large](images/pytorchhub.jpg)
+
 
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ## Ones to watch
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-![classification_large](images/seldon3.png)
-## Seldon
-![classification_large](images/seldon2.png)
-
-#### <a href="https://seldon.io">seldon.io</a>
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -431,6 +503,22 @@ Explainability through tools, process and domain expertise.
 </ul>
 </div>
 
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Design patterns with CRDs
+
+![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/551ce8cfdf697a1a5746ee64a2df8114f2b9e198/examples/explainers/alibi_anchor_tabular/img/deploy-overview.jpg)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Example
+
+Deploying Explainer Modules: http://bit.ly/seldonexplainer
+
+![classification_large](images/alibi.jpg)
+
 
 
 [NEXT]
@@ -489,13 +577,14 @@ Analyse datasets, evaluate models and monitor production
 <!-- .slide: data-background="images/network-background.jpg" class="background" -->
 
 <h2>The Institute for Ethical AI & ML</h2>
-<h3>The state of MLops in 2019</h3>
 
-<table class="bio-table" style="margin-top: -30px">
+<h4>The state of Production ML in 2019</h4>
+
+<table class="bio-table">
   <tr>
     <td style="float: left">
         <br>
-        ![portrait](images/alejandro.jpg)
+        ![portrait](images/aletechuk.png)
         <br>
         <font style="font-weight: bold; color: white">Alejandro Saucedo</font>
         <br>
@@ -510,16 +599,16 @@ Analyse datasets, evaluate models and monitor production
         <br>
         <br>
         <br>
+        Engineering Director
+        <br>
+        <a style="color: cyan" href="#">Seldon Technologies</a>
+        <br>
+        <br>
         <hr>
         <br>
         Head of Solutions Eng. & Sci.
         <br>
         <a style="color: cyan" href="http://eigentech.com">Eigen Technologies</a>
-        <br>
-        <br>
-        Chief Technology Officer
-        <br>
-        <a style="color: cyan" href="#">Hack Partners</a>
         <br>
         <br>
         Software Engineer
@@ -531,7 +620,6 @@ Analyse datasets, evaluate models and monitor production
   <tr>
   </tr>
 </table>
-  
 
 
 
