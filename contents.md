@@ -307,36 +307,11 @@ dvc push
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-## ModelDB
+## MLFlow
 
-<div class="left-col">
-<h4>Normal sklearn</h4>
+![classification_large](images/mlflow.png)
 
-<pre><code class="code python hljs" style="font-size: 1em; line-height: 1em">
-def fit_and_predict(data):
-    model.fit(data)
-    preprocessor.transform(data)
-    model.predict(data)
-
-</code></pre>
-</div>
-
-
-<div class="right-col">
-<h4>ModelDB-enabled</h4>
-
-<pre><code class="code python hljs" style="font-size: 1em; line-height: 1em">
-def fit_and_predict(data):
-    model.fit_sync(data)
-    preprocessor.transform_sync(data)
-    model.predict_sync(data)
-
-</code></pre>
-</div>
-
-![classification_large](images/modeldb-dashboard.png)
-
-#### <a href="https://senselab.med.yale.edu/ModelDB/">senselab.med.yale.edu/ModelDB/</a>
+#### http://github.com/databricks/mlflow
 
 
 [NEXT]
@@ -395,6 +370,19 @@ We need to be able to allocate the right resources
 
 ![classification_large](images/kibana.jpg)
 
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Complex Deployment Strategies
+
+![classification_large](images/inferencepipe.png)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## GitOps Strategies for ML
+
+![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/pytorch_hub/examples/models/pytorchhub/images/pytorchhub-seldondep-overview.jpg)
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
