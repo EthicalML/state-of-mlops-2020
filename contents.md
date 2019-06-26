@@ -64,14 +64,13 @@
 
 ## The Institute for Ethical AI & Machine Learning
 
-<iframe style="width: 100%; height: 70vh" src="https://ethical.institute/">
-
+![classification_large](images/institute.png)
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
 ![classification_large](images/seldon3.png)
-## Seldon
+## Open Source Machine Learning Deployment and Orchestration
 ![classification_large](images/seldon2.png)
 
 #### <a href="https://seldon.io">seldon.io</a>
@@ -472,6 +471,7 @@ Explainability through tools, process and domain expertise.
     <li>Model metrics analysis</li>
 </ul>
 </div>
+
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
