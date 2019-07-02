@@ -26,12 +26,6 @@ This repository contains a presentation of the state of machine learning operati
 </table>
 
 
-## Speaker: Alejandro Saucedo
-* Linkedin: https://linkedin.com/in/AxSaucedo/
-* Twitter: https://twitter.com/AxSaucedo/
-* Github: https://github.com/axsauze/
-* About: Alejandro is the Director of Machine Learning Engineering at [Seldon Technologies](https://seldon.io), where he leads large scale projects implementing open source and enterprise infrastructure for Machine Learning Orchestration and Explainability. Alejandro is also the Chief Scientist at [the Institute for Ethical AI & Machine Learning](https://ethical.institute/), where he leads the development of industry standards on machine learning bias, adversarial attacks and differential privacy. With over 10 years of software development experience, Alejandro has held technical leadership positions across hyper-growth scale-ups and has delivered multi-national projects with top tier investment banks, magic circle law firms and global insurance companies. He has a strong track record building departments of machine learning engineers from scratch, and leading the delivery of large-scale machine learning system across the financial, insurance, legal, transport, manufacturing and construction sectors (in Europe, US and Latin America). 
- 
 ## Contents
 
 * This talk contains an overview of the production machine learning ecosystem in 2019.
@@ -56,6 +50,11 @@ This repository contains a presentation of the state of machine learning operati
         * Other libraries including ELI5, SHAP and XAI
 
 
+## Speaker: Alejandro Saucedo
+* Linkedin: https://linkedin.com/in/AxSaucedo/
+* Twitter: https://twitter.com/AxSaucedo/
+* Github: https://github.com/axsauze/
+* About: Alejandro is the Director of Machine Learning Engineering at [Seldon Technologies](https://seldon.io), where he leads large scale projects implementing open source and enterprise infrastructure for Machine Learning Orchestration and Explainability. Alejandro is also the Chief Scientist at [the Institute for Ethical AI & Machine Learning](https://ethical.institute/), where he leads the development of industry standards on machine learning bias, adversarial attacks and differential privacy. With over 10 years of software development experience, Alejandro has held technical leadership positions across hyper-growth scale-ups and has delivered multi-national projects with top tier investment banks, magic circle law firms and global insurance companies. He has a strong track record building departments of machine learning engineers from scratch, and leading the delivery of large-scale machine learning system across the financial, insurance, legal, transport, manufacturing and construction sectors (in Europe, US and Latin America). 
 
 
 
