@@ -177,9 +177,9 @@ As our data science requirements grow...
 
 <div class="left-col" style="width: 40%; padding-top: 25px">
 <ul>
-    <li>Reproducibility</li>
     <li>Orchestration</li>
     <li>Explainability</li>
+    <li>Reproducibility</li>
 </ul>
 </div>
 
@@ -189,7 +189,128 @@ As our data science requirements grow...
 
 [NEXT SECTION]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-# 2.1 Reproducibility
+
+# 2.1 Model Orchestration
+
+![classification_large](images/mltemp3.png)
+
+### Training & serving at scale
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Computational Resource allocation
+
+Services with different computational requirements
+
+With often complex computational graphs
+
+We need to be able to allocate the right resources
+
+<br>
+### This is a hard problem
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Adding Governance/Compliance
+
+![classification_large](images/mleng-expertise.png)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Standardisation of metrics
+
+![classification_large](images/grafana.jpg)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Standardisation of errors
+
+![classification_large](images/kibana.jpg)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Complex Deployment Strategies
+
+![classification_large](images/inferencepipe.png)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## GitOps Strategies for ML
+
+![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/pytorch_hub/examples/models/pytorchhub/images/pytorchhub-seldondep-overview.jpg)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Basic Example:
+
+Wrapping an [income classifier Python model](http://localhost:8888/notebooks/alibi_anchor_tabular_seldon_deployment.ipynb)
+
+![classification_large](images/simple-model.jpg)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Hands on example using:
+
+![](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/doc/source/seldon.png)
+
+#### Seldon core is A machine learning orchestration and monitoring library in production
+
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Example:
+
+PyTorch Hub Deployment: https://bit.ly/pytorchseldon
+
+![classification_large](images/pytorchhub.jpg)
+
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Other libraries to watch
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## MLeap Serving
+
+Diving one level deeper into serialization of models
+
+![classification_large](images/mleapruntime.jpg)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+## DeepDetect
+
+Unifying multiple external machine learning libraries on a single API
+
+![classification_large](images/deepdetect.png)
+
+#### <a href="https://www.deepdetect.com/">www.deepdetect.com/</a>
+
+
+[NEXT SECTION]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+# 2.2 Reproducibility
 ![classification_large](images/mltemp6.png)
 ### Model & data versioning
 
@@ -320,105 +441,6 @@ dvc push
 ![classification_large](images/pachyderm-dashboard.png)
 
 #### <a href="https://www.pachyderm.io/">www.pachyderm.io/</a>
-
-[NEXT SECTION]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-# 2.2 Model Orchestration
-
-![classification_large](images/mltemp3.png)
-
-### Training & serving at scale
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Computational Resource allocation
-
-Services with different computational requirements
-
-With often complex computational graphs
-
-We need to be able to allocate the right resources
-
-<br>
-### This is a hard problem
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Adding Governance/Compliance
-
-![classification_large](images/mleng-expertise.png)
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Standardisation of metrics
-
-![classification_large](images/grafana.jpg)
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Standardisation of errors
-
-![classification_large](images/kibana.jpg)
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Complex Deployment Strategies
-
-![classification_large](images/inferencepipe.png)
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## GitOps Strategies for ML
-
-![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/pytorch_hub/examples/models/pytorchhub/images/pytorchhub-seldondep-overview.jpg)
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Example:
-
-PyTorch Hub Deployment: https://bit.ly/pytorchseldon
-
-![classification_large](images/pytorchhub.jpg)
-
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Ones to watch
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## MLeap Serving
-
-Diving one level deeper into serialization of models
-
-![classification_large](images/mleapruntime.jpg)
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-## DeepDetect
-
-Unifying multiple external machine learning libraries on a single API
-
-![classification_large](images/deepdetect.png)
-
-#### <a href="https://www.deepdetect.com/">www.deepdetect.com/</a>
-
 
 [NEXT SECTION]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
