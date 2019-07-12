@@ -267,7 +267,7 @@ Wrapping an [income classifier Python model](http://localhost:8888/notebooks/ali
 
 ![](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/doc/source/seldon.png)
 
-#### Seldon core is A machine learning orchestration and monitoring library in production
+#### Seldon core is an OSS library for  machine learning orchestration and monitoring in production
 
 
 
