@@ -310,141 +310,7 @@ Unifying multiple external machine learning libraries on a single API
 
 [NEXT SECTION]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-# 2.2 Reproducibility
-![classification_large](images/mltemp6.png)
-### Model & data versioning
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Abstracting individual steps
-
-![classification_large](images/mlstep.png)
-
-
-<div style="float: left; width: 33%">
-<h4>Data in </h4>
-
-<pre><code class="code python hljs" style="font-size: 0.6em; line-height: 1em">
-$ cat data-input.csv
-
->            Date    Open    High     Low   Close     Market Cap
-> 1608 2013-04-28  135.30  135.98  132.10  134.21  1,500,520,000
-> 1607 2013-04-29  134.44  147.49  134.00  144.54  1,491,160,000
-> 1606 2013-04-30  144.00  146.93  134.05  139.00  1,597,780,000
-
-</code></pre>
-</div>
-
-<div style="float: left; width: 33%">
-<h4>Code / Config</h4>
-<pre><code class="code python hljs" style="font-size: 0.6em; line-height: 1em">
-$ cat feature-extractor.py
-
-> def open_norm_feature_extractor(df):
->     feature = some_lib.get_open(df)
->     return feature
-
-
-</code></pre>
-</div>
-
-<div style="float: left; width: 33%">
-<h4>Data out</h4>
-<pre><code class="code python hljs" style="font-size: 0.6em; line-height: 1em">
-$ cat data-output.csv
-
->   Open 
->   0.57 
->   0.59 
->   0.47 
-
-</code></pre>
-</div>
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-<div style="position: absolute; width: 30%; right: 0; bottom: -5%">
-![classification_large](images/versioning.jpg)
-</div>
-## Going one level higher
-
-We can abstract our entire pipeline and data flows
-
-![classification_large](images/mltemp5.png)
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Case study: 
-
-Reusable NLP Pipelines: https://bit.ly/seldon-kf-nlp
-
-![classification_large](images/kubeflowexample.jpg)
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Ones to watch
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Data Version Control (DVC)
-
-
-#### Add your data
-
-```
-dvc add images.zip
-```
-
-#### commit data input, model output and code
-
-```
-dvc run -d images.zip -o model.p ./cnn.py
-```
-
-#### Add repository location (here is s3)
-
-```
-dvc remote add myrepo s3://mybucket
-```
-
-#### Push to the location specified
-
-```
-dvc push
-```
-
-#### Check it out at <a href="https://dvc.org">dvc.org</a>
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## MLFlow
-
-![classification_large](images/mlflow.png)
-
-#### http://github.com/databricks/mlflow
-
-
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Pachyderm 
-![classification_large](images/pachyderm-dashboard.png)
-
-#### <a href="https://www.pachyderm.io/">www.pachyderm.io/</a>
-
-[NEXT SECTION]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-# 2.3 Explainability
+# 2.2 Explainability
 Tackling "black box model" situations
 
 ![classification_large](images/mlops2.png)
@@ -516,9 +382,21 @@ Explainability through tools, process and domain expertise.
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-## Design patterns with CRDs
+## Infrastructure level XAI Design patterns 
 
 ![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/551ce8cfdf697a1a5746ee64a2df8114f2b9e198/examples/explainers/alibi_anchor_tabular/img/deploy-overview.jpg)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Hands on example using:
+
+<img style="height: 30vh;background-color: white !important" src=https://raw.githubusercontent.com/SeldonIO/alibi/master/doc/source/_static/Alibi_Logo.png>
+
+#### Alibi is a library that contains production-level black box model explainability techniques
+
+
+
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -534,7 +412,7 @@ Deploying Explainer Modules: http://bit.ly/seldonexplainer
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-# Ones to watch
+## Other OSS libraries to watch
 
 
 [NEXT]
@@ -566,6 +444,149 @@ Analyse datasets, evaluate models and monitor production
 
 #### <a href="https://github.com/ethicalml/xai">github.com/ethicalml/xai</a>
 
+
+[NEXT SECTION]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+# 2.3 Reproducibility
+![classification_large](images/mltemp6.png)
+### Model & data versioning
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Abstracting individual steps
+
+![classification_large](images/mlstep.png)
+
+
+<div style="float: left; width: 33%">
+<h4>Data in </h4>
+
+<pre><code class="code python hljs" style="font-size: 0.6em; line-height: 1em">
+$ cat data-input.csv
+
+>            Date    Open    High     Low   Close     Market Cap
+> 1608 2013-04-28  135.30  135.98  132.10  134.21  1,500,520,000
+> 1607 2013-04-29  134.44  147.49  134.00  144.54  1,491,160,000
+> 1606 2013-04-30  144.00  146.93  134.05  139.00  1,597,780,000
+
+</code></pre>
+</div>
+
+<div style="float: left; width: 33%">
+<h4>Code / Config</h4>
+<pre><code class="code python hljs" style="font-size: 0.6em; line-height: 1em">
+$ cat feature-extractor.py
+
+> def open_norm_feature_extractor(df):
+>     feature = some_lib.get_open(df)
+>     return feature
+
+
+</code></pre>
+</div>
+
+<div style="float: left; width: 33%">
+<h4>Data out</h4>
+<pre><code class="code python hljs" style="font-size: 0.6em; line-height: 1em">
+$ cat data-output.csv
+
+>   Open 
+>   0.57 
+>   0.59 
+>   0.47 
+
+</code></pre>
+</div>
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+<div style="position: absolute; width: 30%; right: 0; bottom: -5%">
+![classification_large](images/versioning.jpg)
+</div>
+## Going one level higher
+
+We can abstract our entire pipeline and data flows
+
+![classification_large](images/mltemp5.png)
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Hands on example using:
+
+<img style="height: 30vh" src="https://camo.githubusercontent.com/bd4adfc06b0e349c47f2bae3319544a2e547c796/68747470733a2f2f7777772e6b756265666c6f772e6f72672f696d616765732f6c6f676f2e737667">
+
+#### Kubeflow is a Cloud Native platform for reusable machine learning pipelines in kubernetes 
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Example
+
+Reusable NLP Pipelines: https://bit.ly/seldon-kf-nlp
+
+![classification_large](images/kubeflowexample.jpg)
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Other OSS libraries to watch
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Data Version Control (DVC)
+
+
+#### Add your data
+
+```
+dvc add images.zip
+```
+
+#### commit data input, model output and code
+
+```
+dvc run -d images.zip -o model.p ./cnn.py
+```
+
+#### Add repository location (here is s3)
+
+```
+dvc remote add myrepo s3://mybucket
+```
+
+#### Push to the location specified
+
+```
+dvc push
+```
+
+#### Check it out at <a href="https://dvc.org">dvc.org</a>
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## MLFlow
+
+![classification_large](images/mlflow.png)
+
+#### http://github.com/databricks/mlflow
+
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## Pachyderm 
+![classification_large](images/pachyderm-dashboard.png)
+
+#### <a href="https://www.pachyderm.io/">www.pachyderm.io/</a>
 [NEXT SECTION]
 <!-- .slide: data-background="images/network-background.jpg" class="background smallest" -->
 
