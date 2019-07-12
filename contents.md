@@ -253,6 +253,15 @@ We need to be able to allocate the right resources
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
+## Hands on example using:
+
+![](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/doc/source/seldon.png)
+
+#### Seldon core is an OSS library for  machine learning orchestration and monitoring in production
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
 ## Basic Example:
 
 Wrapping an [income classifier Python model](http://localhost:8888/notebooks/alibi_anchor_tabular_seldon_deployment.ipynb)
@@ -260,25 +269,17 @@ Wrapping an [income classifier Python model](http://localhost:8888/notebooks/ali
 ![classification_large](images/simple-model.jpg)
 
 
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## Hands on example using:
-
-![](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/doc/source/seldon.png)
-
-#### Seldon core is an OSS library for  machine learning orchestration and monitoring in production
-
-
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-## Example:
+## More advanced Example:
 
 PyTorch Hub Deployment: https://bit.ly/pytorchseldon
 
 ![classification_large](images/pytorchhub.jpg)
+
+
 
 
 
