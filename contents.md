@@ -62,6 +62,16 @@
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
+![classification_large](images/seldon3.png)
+
+## OSS ML Serving in k8s
+![classification_large](images/seldon2.png)
+
+#### We're hiring: <a href="https://seldon.io">seldon.io</a>
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
 ## The Institute for Ethical AI & Machine Learning
 
 ![classification_large](images/institute.png)
@@ -69,11 +79,9 @@
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-![classification_large](images/seldon3.png)
-## Open Source Machine Learning Deployment and Orchestration
-![classification_large](images/seldon2.png)
+## We are part of the Linux Foundation AI 
 
-#### <a href="https://seldon.io">seldon.io</a>
+![classification_large](images/lfai-institute.jpg)
 
 
 [NEXT]
@@ -152,20 +160,11 @@ As our data science requirements grow...
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-## We've mapped the ecosystem
+## Mapping the Ecosystem 
 
+![](images/lfai-landscape.jpg)
 
-||||
-|-|-|-|
-|[🔍 Explainability](https://github.com/EthicalML/awesome-machine-learning-operations#1-explaining-black-box-models-and-datasets) |[🔏 Privacy](https://github.com/EthicalML/awesome-machine-learning-operations#2-privacy-preserving-machine-learning) | [📜 Versioning](https://github.com/EthicalML/awesome-machine-learning-operations#3-model-and-data-versioning)|
-|[🏁 Orchestration](https://github.com/EthicalML/awesome-machine-learning-operations#4-model-deployment-and-orchestration-frameworks)|[🌀 FeaturEng](https://github.com/EthicalML/awesome-machine-learning-operations#5-feature-engineering-automation)|[🤖 AutoML](https://github.com/EthicalML/awesome-machine-learning-operations#6-neural-architecture-search)|
-| [📓 Notebooks](https://github.com/EthicalML/awesome-machine-learning-operations#7-data-science-notebook-frameworks) | [📊 Visualisation](https://github.com/EthicalML/awesome-machine-learning-operations#8-industrial-strength-visualisation-libraries) | [🔠 NLP](https://github.com/EthicalML/awesome-machine-learning-operations#9-industrial-strength-nlp) |
-| [🧵 ETL](https://github.com/EthicalML/awesome-machine-learning-operations#10-data-pipeline-etl-frameworks) | [🗞️ Storage](https://github.com/EthicalML/awesome-machine-learning-operations#11-data-storage-optimisation) | [📡 FaaS](https://github.com/EthicalML/awesome-machine-learning-operations#12-function-as-a-service-frameworks) |
-| [🗺️ Computation](https://github.com/EthicalML/awesome-machine-learning-operations#13-computation-load-distribution-frameworks) | [📥 Serialisation](https://github.com/EthicalML/awesome-machine-learning-operations#14-model-serialisation-formats) | [🎁 Compiler](https://github.com/EthicalML/awesome-machine-learning-operations#15-compiler-optimisation-frameworks)  |
-| [💸 CommercialML](https://github.com/EthicalML/awesome-machine-learning-operations#16-commercial-data-science-platforms) | [💰 CommercialETL](https://github.com/EthicalML/awesome-machine-learning-operations#17-commercial-etl-platforms)| |
-<br>
-
-### https://bit.ly/awesome-mlops
+### https://landscape.lfai.foundation
 
 
 
@@ -242,13 +241,6 @@ We need to be able to allocate the right resources
 
 ![classification_large](images/inferencepipe.png)
 
-[NEXT]
-<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
-
-## GitOps Strategies for ML
-
-![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/pytorch_hub/examples/models/pytorchhub/images/pytorchhub-seldondep-overview.jpg)
-
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
@@ -264,10 +256,17 @@ We need to be able to allocate the right resources
 
 ## Basic Example:
 
-Wrapping an [income classifier Python model](http://localhost:8888/notebooks/alibi_anchor_tabular_seldon_deployment.ipynb)
+Wrapping an [income classifier Python model](https://github.com/SeldonIO/seldon-core/tree/master/examples/explainers/alibi_anchor_tabular)
 
 ![classification_large](images/simple-model.jpg)
 
+
+[NEXT]
+<!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
+
+## GitOps Strategies for ML
+
+![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/pytorch_hub/examples/models/pytorchhub/images/pytorchhub-seldondep-overview.jpg)
 
 
 [NEXT]
@@ -291,11 +290,11 @@ PyTorch Hub Deployment: https://bit.ly/pytorchseldon
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
 
-## MLeap Serving
+## KFServing
 
-Diving one level deeper into serialization of models
+Serverness for machine learning in kubernetes based on Knative
 
-![classification_large](images/mleapruntime.jpg)
+![classification_large](https://raw.githubusercontent.com/kubeflow/kfserving/master/docs/diagrams/kfserving.png)
 
 
 [NEXT]
@@ -385,7 +384,7 @@ Explainability through tools, process and domain expertise.
 
 ## Infrastructure level XAI Design patterns 
 
-![classification_large](https://raw.githubusercontent.com/axsaucedo/seldon-core/551ce8cfdf697a1a5746ee64a2df8114f2b9e198/examples/explainers/alibi_anchor_tabular/img/deploy-overview.jpg)
+![classification_large](https://ethicalml.github.io/explainability-and-bias/images/prodxai-5a.jpg)
 
 [NEXT]
 <!-- .slide: data-background="images/partistat.png" class="background smallquote" style="color: white" -->
