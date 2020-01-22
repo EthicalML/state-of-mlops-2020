@@ -1,6 +1,6 @@
-# Kubecon Shanghai 2019: The state of machine learning operations in 2019
+# Kubecon Shanghai 2020: The state of machine learning operations in 2020
 
-This repository contains a presentation of the state of machine learning operations in 2019. 
+This repository contains a presentation of the state of machine learning operations in 2020. 
 
 
 <table>
@@ -28,7 +28,7 @@ This repository contains a presentation of the state of machine learning operati
 
 ## Contents
 
-* This talk contains an overview of the production machine learning ecosystem in 2019.
+* This talk contains an overview of the production machine learning ecosystem in 2020.
 * It provides an insight on the relevant themes [which are all listed in our Awesome Production ML list](https://github.com/EthicalML/awesome-production-machine-learning)
 * For each theme, we dive into its definition, challenges, libraries available and a hands-on example
 * We cover dive into three themes:
