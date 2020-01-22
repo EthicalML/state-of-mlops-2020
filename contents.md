@@ -2,7 +2,7 @@
 <!-- .slide: data-background="images/network-background.jpg" class="background" -->
 
 <h2>The Institute for Ethical AI & ML</h2>
-<h3>The state of Production ML in 2019</h3>
+<h3>The state of Production ML in 2020</h3>
 <p>
   <br />
   <br />
@@ -16,7 +16,7 @@
 
 <h2>The Institute for Ethical AI & ML</h2>
 
-<h4>The state of Production ML in 2019</h4>
+<h4>The state of Production ML in 2020</h4>
 
 <table class="bio-table">
   <tr>
@@ -609,7 +609,7 @@ dvc push
 
 <h2>The Institute for Ethical AI & ML</h2>
 
-<h4>The state of Production ML in 2019</h4>
+<h4>The state of Production ML in 2020</h4>
 
 <table class="bio-table">
   <tr>
